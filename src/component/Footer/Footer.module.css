@@ -1,0 +1,116 @@
+.footer{
+    background: #4E60D3;
+    width: 100%;
+    display: flex;
+}
+.footer .place{
+    display: flex;
+    flex-direction: row;
+    grid-gap: 20px;
+    padding: 90px 30px 90px 40px;
+    margin: auto;
+}
+.footer .place .menu{
+    width: 262px;
+    height: 102px;
+    border-radius: 5px;
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 60px; 
+}
+.footer .place .menu p{
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 100;
+}
+.menu h3{
+    /* font-weight: bold; */
+    padding-bottom: 10px;
+}
+/* .store{
+    padding-top: 10px;
+} */
+.appWhite{
+    padding-top: 15px;
+}
+.playWhite{
+    padding-top: 15px;
+}
+.text-link{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+  @media (min-width: 220px) and (max-width: 640px) {
+    .footer .place{
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+    .footer .place .menu{
+        width: 382px;
+        height: 102px;
+        border-radius: 5px;
+        padding: 20px;
+        padding-top: 0;
+        padding-bottom: 60px; 
+    }
+    .footer .place .menu p{
+        line-height: 20px;
+        font-size: 14px;
+        font-weight: 80;
+    }
+    .store{
+        display: flex;
+        flex-direction: column;
+    }
+    
+  }
+
+  @media (min-width: 641px) and (max-width: 768px) {
+      .footer .place{
+          display: grid;
+          grid-template-columns: repeat(1, minmax(0, 1fr));
+      }
+      .footer .place .menu{
+        width: 382px;
+        height: 102px;
+        border-radius: 5px;
+        padding: 20px;
+        padding-top: 0;
+        padding-bottom: 60px; 
+    }
+    .footer .place .menu p{
+        line-height: 15px;
+        font-size: 12px;
+        font-weight: 70;
+    }
+    .store{
+        display: flex;
+        flex-direction: column;
+    }
+    
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+      .footer .place{
+          display: grid;
+          grid-template-columns: repeat(1, minmax(0, 1fr));
+      } 
+      .footer .place .menu{
+        width: 382px;
+        height: 102px;
+        border-radius: 5px;
+        padding: 20px;
+        padding-top: 0;
+        padding-bottom: 60px; 
+    }
+    .footer .place .menu p{
+        line-height: 25px;
+        font-size: 18px;
+        font-weight: 80;
+    }
+    .store{
+        display: flex;
+        flex-direction: column;
+    }
+  }

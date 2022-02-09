@@ -1,0 +1,590 @@
+
+ .us{
+     width: 100%;
+ }
+ .contact{
+    /* background: image("../Asset/connect.png", #130F26D1); */
+    /* background: url("../Asset/connect.png"); */
+    background-color: #1a1729d1;
+    height: 604px;
+    filter: opacity(0.5) drop-shadow(0 0 0 rgb(0, 0, 214));
+    position: relative;
+}
+.contact img{
+    width: 1499px;
+}
+.con{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 81.2px;
+}
+.help{
+    position: absolute;
+    top: 300px;
+    left: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+.you{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23.44px;
+    width: 577px;
+}
+
+.intouch{
+    color: #0075FF;
+    padding: 120px 30px 0px 70px;
+    height: 60px;
+    font-weight: 500;
+    font-size: 46px;
+    /* line-height: 39.89px; */
+    font-family: sans-serif; 
+}
+.locale{
+    display: flex;
+    flex-direction: row;
+    padding: 70px; 
+}
+.locate{
+    margin-left: 200px;
+}
+.location p{
+    width: 288px;
+    padding-top: 10px;
+    line-height: 31.25px;
+    color: #418DF9;
+    font-weight: 500;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+.location img{
+    margin-left: 5px;
+}
+.connect{
+    display: flex;
+    flex-direction: row;
+    margin: 70px;
+}
+
+.add{
+    margin-left: 120px;
+}
+.mail{
+    width: 631px;
+    height: 106px;
+    background: #F3F1F1;
+    margin-bottom: 13px;
+    border-radius: 5px;
+}
+.message{
+    height: 297px;
+    width: 631px;
+    background: #F3F1F1;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.send{
+    height: 80px;
+    width: 631px;
+    background: #4E60D3;
+    border-radius: 5px;
+
+}
+.session8{
+    background: #0075FF;
+    display: flex;
+    flex-direction: row;
+    height: 681px;
+}
+.session8 .downloadApp{
+    color: white;
+}
+.session8 .downloadApp h2{
+    width: 302px;
+    height: 70px;
+    padding: 70px 30px 70px 90px;
+    left: 129px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.session8 .downloadApp p{
+    width: 540px;
+    height: 72px;
+    top: 210px;
+    left: 129px;
+    font-weight: 400;
+    padding: 30px 30px 30px 90px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.session8 .store{
+    padding: 30px 30px 30px 90px;
+}
+.session8 .playPlay{
+    padding-left: 30px;
+}
+
+.session8 .iphone3{
+    padding-left: 210px;
+}
+.iphone3 .phone1{
+    padding-bottom: 90px;
+}
+.iphone3 .phone2{
+    padding-left: 20px;
+}
+
+@media (min-width: 220px) and (max-width: 640px) {
+    .contact{
+        /* background: image("../Asset/connect.png", #130F26D1); */
+        /* background: url("../Asset/connect.png"); */
+        background-color: #1a1729d1;
+        height: 104px;
+        filter: opacity(0.5) drop-shadow(0 0 0 rgb(0, 0, 214));
+        position: relative;
+        width: 300px;
+        margin-left: 30px;
+    }
+    .contact img{
+        width: 300px;
+        height: 160px;
+        /* margin-left: 40px; */
+    }
+    .con{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 41.2px;
+    }
+    .help{
+        position: absolute;
+        top: 160px;
+        left: 70px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #ffffff;
+    }
+    .you{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 13.44px;
+        width: 250px;
+    }
+    
+    .intouch{
+        color: #0075FF;
+        padding: 90px 30px 0px 40px;
+        height: 60px;
+        font-weight: 500;
+        font-size: 26px;
+        /* line-height: 39.89px; */
+        font-family: sans-serif; 
+    }
+    .locale{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 50px 50px 40px; 
+    }
+    .locate{
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+    .location p{
+        width: 208px;
+        padding-top: 10px;
+        line-height: 31.25px;
+        color: #418DF9;
+        font-weight: 500;
+        font-size: 24px;
+        font-family: sans-serif;
+    }
+    .location img{
+        margin-left: 5px;
+    }
+    .connect{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    .usreach img{
+        width: 300px;
+        height: 260px;
+    }
+    .add{
+        margin-left: 0px;
+        margin-top: 20px;
+        
+    }
+    .mail{
+        width: 276px;
+        padding-top: 20px;
+        padding-left: 25px;
+        height: 56px;
+        color: rgb(204, 197, 197);
+        background: #F3F1F1;
+        margin-bottom: 13px;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+    .message{
+        height: 157px;
+        padding-top: 20px;
+        padding-left: 25px;
+        width: 276px;
+        color: rgb(204, 197, 197);
+        background: #F3F1F1;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    .send{
+        height: 40px;
+        padding-top: 20px;
+        padding-left: 55px;
+        width: 243px;
+        color: rgb(255, 255, 255);
+        background: #4E60D3;
+        border-radius: 5px;
+    }
+     .session8{
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+    }
+    .session8 .downloadApp h2{
+        width: 212px;
+        height: 70px;
+        
+        padding: 70px 30px 70px 40px;
+        left: 129px;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 64px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .session8 .downloadApp p{
+        width: 300px;
+        height: 72px;
+        top: 210px;
+        left: 129px;
+        font-weight: 400;
+        padding: 30px 30px 30px 40px;
+        font-size: 14px;
+        line-height: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .session8 .store{
+        padding: 30px 30px 30px 60px;
+    }
+    .session8 .playPlay{
+        padding-left: 0px;
+    }
+    
+    .session8 .iphone3{
+        padding-left: 90px;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 100px;
+    }
+    .iphone3 .phone1{
+        width: 95.03px;
+        height: 431.69px;
+        top: 2.03px;
+        padding-left: 1.2px;
+    }
+    .iphone3 .phone2{
+        width: 82.27px;
+        height: 422.34px;
+        top: 2.03;
+        left: 2.03;
+        padding-top: 50px;
+    }
+
+}
+
+  @media (min-width: 641px) and (max-width: 768px) {
+    .contact{
+        /* background: image("../Asset/connect.png", #130F26D1); */
+        /* background: url("../Asset/connect.png"); */
+        background-color: #1a1729d1;
+        height: 304px;
+        filter: opacity(0.5) drop-shadow(0 0 0 rgb(0, 0, 214));
+        position: relative;
+        width: 400px;
+    }
+    .contact img{
+        width: 400px;
+    }
+    .con{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 41.2px;
+    }
+    .help{
+        position: absolute;
+        top: 300px;
+        left: 70px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #ffffff;
+    }
+    .you{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 13.44px;
+        width: 377px;
+    }
+    
+    .intouch{
+        color: #0075FF;
+        padding: 120px 30px 0px 70px;
+        height: 60px;
+        font-weight: 500;
+        font-size: 26px;
+        /* line-height: 39.89px; */
+        font-family: sans-serif; 
+    }
+    .locale{
+        display: flex;
+        flex-direction: column;
+        padding: 50px; 
+    }
+    .locate{
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+    .location p{
+        width: 208px;
+        padding-top: 10px;
+        line-height: 31.25px;
+        color: #418DF9;
+        font-weight: 500;
+        font-size: 24px;
+        font-family: sans-serif;
+    }
+    .location img{
+        margin-left: 5px;
+    }
+    .connect{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    .usreach img{
+        width: 380px;
+        height: 300px;
+    }
+    .add{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .mail{
+        width: 331px;
+        height: 86px;
+        background: #F3F1F1;
+        margin-bottom: 13px;
+        border-radius: 5px;
+    }
+    .message{
+        height: 197px;
+        width: 331px;
+        background: #F3F1F1;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    .send{
+        height: 80px;
+        width: 331px;
+        background: #4E60D3;
+        border-radius: 5px;
+    }
+    .session8{
+        display: flex;
+        flex-direction: column;
+        height: 1211px;
+    }
+    .session8 .downloadApp h2{
+        width: 212px;
+        height: 70px;
+        
+        padding: 70px 30px 70px 40px;
+        left: 129px;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 64px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .session8 .downloadApp p{
+        width: 340px;
+        height: 72px;
+        top: 210px;
+        left: 129px;
+        font-weight: 400;
+        padding: 30px 30px 30px 40px;
+        font-size: 14px;
+        line-height: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .session8 .store{
+        padding: 30px 30px 30px 90px;
+    }
+    .session8 .playPlay{
+        padding-left: 30px;
+    }
+    
+    .session8 .iphone3{
+        padding-left: 40px;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 100px;
+    }
+    .iphone3 .phone1{
+        padding-bottom: 90px;
+    }
+    .iphone3 .phone2{
+        padding-left: 20px;
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .contact{
+        /* background: image("../Asset/connect.png", #130F26D1); */
+        /* background: url("../Asset/connect.png"); */
+        background-color: #1a1729d1;
+        height: 304px;
+        filter: opacity(0.5) drop-shadow(0 0 0 rgb(0, 0, 214));
+        position: relative;
+        width: 400px;
+    }
+    .contact img{
+        width: 400px;
+    }
+    .con{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 41.2px;
+    }
+    .help{
+        position: absolute;
+        top: 300px;
+        left: 70px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #ffffff;
+    }
+    .you{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 13.44px;
+        width: 377px;
+    }
+    
+    .intouch{
+        color: #0075FF;
+        padding: 120px 30px 0px 70px;
+        height: 60px;
+        font-weight: 500;
+        font-size: 26px;
+        /* line-height: 39.89px; */
+        font-family: sans-serif; 
+    }
+    .locale{
+        display: flex;
+        flex-direction: column;
+        padding: 50px; 
+    }
+    .locate{
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+    .location p{
+        width: 208px;
+        padding-top: 10px;
+        line-height: 31.25px;
+        color: #418DF9;
+        font-weight: 500;
+        font-size: 24px;
+        font-family: sans-serif;
+    }
+    .location img{
+        margin-left: 5px;
+    }
+    .connect{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    .usreach img{
+        width: 380px;
+        height: 300px;
+    }
+    .add{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .mail{
+        width: 331px;
+        height: 86px;
+        background: #F3F1F1;
+        margin-bottom: 13px;
+        border-radius: 5px;
+    }
+    .message{
+        height: 197px;
+        width: 331px;
+        background: #F3F1F1;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    .send{
+        height: 80px;
+        width: 331px;
+        background: #4E60D3;
+        border-radius: 5px;
+    }
+    .session8{
+        display: flex;
+        flex-direction: column;
+        height: 1211px;
+    }
+    .session8 .downloadApp h2{
+        width: 212px;
+        height: 70px;
+        
+        padding: 70px 30px 70px 40px;
+        left: 129px;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 64px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .session8 .downloadApp p{
+        width: 340px;
+        height: 72px;
+        top: 210px;
+        left: 129px;
+        font-weight: 400;
+        padding: 30px 30px 30px 40px;
+        font-size: 14px;
+        line-height: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .session8 .store{
+        padding: 30px 30px 30px 90px;
+    }
+    .session8 .playPlay{
+        padding-left: 30px;
+    }
+    
+    .session8 .iphone3{
+        padding-left: 40px;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 100px;
+    }
+    .iphone3 .phone1{
+        padding-bottom: 90px;
+    }
+    .iphone3 .phone2{
+        padding-left: 20px;
+    }
+  }

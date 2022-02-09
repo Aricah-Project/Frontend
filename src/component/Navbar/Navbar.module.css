@@ -1,0 +1,122 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    padding: 15px 25px 15px 30px;
+}
+.logo{
+    padding-top: 10px;
+}
+.guide{
+    text-decoration: none;
+    color: #000;
+    padding-left: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.guide:hover{
+    color: #0075FF;
+    text-decoration: underline;
+}
+.guider{
+    text-decoration: none;
+    color: #000;
+}
+.guiding{
+    text-decoration: none;
+    color: #000;
+}
+.guiding:hover{
+    color: royalblue;
+    text-decoration: underline;
+    background-color: #ffffff;
+   
+}
+.in{
+    height: 40px;
+    width: 88px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.guidin{
+    text-decoration: none;
+    color: #ffffff;
+}
+.guidin:hover{
+    color: royalblue;
+    text-decoration: underline;
+}
+.out{
+    width: 172px;
+    height: 40px;
+    background-color: #000;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-left: 30px;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.ham{
+    padding-left: 700px;
+    display: flex;
+    flex-direction: row;
+}
+
+@media (min-width: 220px) and (max-width: 640px) {
+    .ham{
+        display: none;
+    }
+    .row{
+        padding: 15px 25px 15px 18px;
+    }
+    .guide{
+        text-decoration: none;
+        color: #000;
+        padding-left: 18px;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: sans-serif;
+    }
+}
+@media (min-width: 641px) and (max-width: 768px) {
+    .ham{
+        display: none;
+    }
+
+    .row{
+        padding: 15px 25px 15px 21px;
+    }
+    .guide{
+        text-decoration: none;
+        color: #000;
+        padding-left: 21px;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: sans-serif;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .ham{
+        display: none;
+    }
+    .row{
+        padding: 15px 25px 15px 23px;
+    }
+    .guide{
+        text-decoration: none;
+        color: #000;
+        padding-left: 25px;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: sans-serif;
+    }
+}

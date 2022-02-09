@@ -1,0 +1,1521 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    /* box-sizing: border-box; */
+}
+
+.features{
+    width: 100%;
+    box-sizing: border-box;
+    /* padding: 30px; */
+}
+.iphone{
+    /* padding-left: 2px; */
+    display: flex;
+    flex-direction: row;
+}
+.iphone1{
+    width: 265.03px;
+    height: 731.69px;
+    top: 2.03px;
+    padding-left: 50.2px;
+}
+.iphone2{
+    width: 282.27px;
+    height: 722.34px;
+    top: 2.03;
+    left: 2.03;
+    padding-top: 140px;
+}
+.session1{
+    display: flex;
+    flex-direction: row;
+    grid-gap: 20px;
+    padding: 150px 30px 0px 90px;
+    
+}
+.perfect h4{
+    width: 596px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 66.16px;
+    height: 152px;
+    width: 565px;
+    padding: 0 100px 125px 0px;
+    text-transform: capitalize;
+    
+    
+}
+.perfect p{
+    width: 520px;
+    font-size: 20px;
+    line-height: 31.25px;
+    font-weight: 400;
+    height: 62px;
+    left: 80px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.btnGet{
+    line-height: 10px;
+    padding-top: 100px;
+}
+.btnGet button{
+    background: #0075FF;
+    color: white;
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    box-shadow: 3px 3px 3px rgb(49, 48, 48);
+}
+.session2{
+    background: #418DF9;
+    height: 100px;
+}
+.brand{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+}
+.around{
+    align-items: center;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+}
+.session3{
+    display: flex;
+    flex-direction: row;
+    padding-top: 60px;
+}
+.session3 img{
+    padding-left: 90px;
+}
+.aboutTell{
+    padding-left: 150px;
+}
+.aboutTell h1{
+    font-size: 48px;
+    font-weight: 600;
+    width: 203px;
+    height: 65px;
+    line-height: 65.28px;
+    left: 0px603px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.aboutTell p{
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 640px;
+    height: 224px;
+    left: 603px;
+}
+.aboutTell .btnLearn{
+    padding-top: 20px;
+}
+.aboutTell button{
+    width: 160px;
+    height: 60px;
+    background-color: white;
+    border-radius: 10px;
+    color: #0075FF;
+    border: 1px solid #0075FF;
+}
+.session4 {
+    padding-top: 100px;
+}
+.session4 h1{
+    padding-left: 90px;
+}
+.session4 .realsteps{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+.session4 .steps{
+    border: 1px solid transparent;
+    box-shadow: 1px 1px 4px 1px #0075FF;
+    width: 340px;
+    border-radius: 5px;
+    height: 230px;
+    padding: 18px;
+    background-color: white;
+    
+}
+
+.session4 h4{
+    height: 60px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 65.28px;
+    padding: 20px 20px 20px 11px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.session5{
+    display: flex;
+    flex-direction: row;
+    padding: 100px 40px 40px 90px;
+}
+.session5a h2{
+    width: 370.74px;
+    padding-bottom: 20px;
+    height: 130px;
+    line-height: 65.28px;
+    font-size: 48px;
+    top: 90px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.session5a p{
+    width: 370px;
+    height: 128px;
+    top: 230px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+}
+.session5b{
+    padding-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+    line-height: 30px;
+}
+.session5b .secure{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background: #FCB04B40;
+    width: 400px;
+    height: 220px;
+    padding-left: 25px;
+    padding-top: 40px;
+}
+.session5b .secured{
+    border: 1px solid transparent;
+    background: #FCAE4940;
+    border-radius: 5px;
+    width: 400px;
+    height: 220px;
+    margin-top: 25px;
+    padding-top: 40px;
+}
+.session5b .securer{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background: #0075FF40;
+    width: 400px;
+    height: 220px;
+    padding-top: 40px;
+}
+.session5b h2{
+    line-height: 40.6px;
+    width: 276.85px;
+    font-size: 28.15px;
+    font-weight: 600;
+    padding-left: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.session5b p{
+    width: 342px;
+    padding: 20px;
+    font-size: 18.77px;
+    font-weight: 400;
+    line-height: 24.44px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.session6 h1{
+    width: 590px;
+
+    height: 65px;
+    left: 1px;
+    padding: 20px 20px 20px 90px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65.28px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.session6 .explore{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 63px;
+}
+.session6 .support{
+    border: 1px solid transparent;
+    box-shadow: 2px 18px 22px rgb(216, 214, 214);
+    border-radius: 5px;
+   margin-left: 25px;
+   margin-bottom: 40px;
+   padding: 30px;
+   width: 200px;
+    height: 127px;
+    top: 129px;
+}
+.session6 .support h4{
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31.25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.session6 .support p{
+    line-height: 39px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #949EB0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.session7 h1{
+    padding: 50px 50px 50px 90px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65.28px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.session7 .recommend{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px 20px 20px 50px;
+}
+.session7 .commend{
+    border: 2px solid #949EB0;
+    width: 370px;
+    height: 244px;
+    top: 129px;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.recommend .plum{
+    display: flex;
+    flex-direction: row;
+    padding: 9px 20px 9px 20px;
+}
+.recommend .plum .ville{
+    padding-left: 30px;
+}
+.recommend .plum .ville h6{
+    padding-top: 10px;
+    color: #949EB0;
+
+}
+.recommend .plum .ville p{
+    color: #130F26;
+    font-weight: 400;
+    line-height: 23.44px;
+    font-size: 18px;
+
+}
+.recommend h4{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31.35px;
+}
+.commend h4{
+    padding: 1px 20px 1px 20px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31.25px;
+    color: #130F26;
+
+}
+.commend p{
+    padding: 5px 20px 5px 20px;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #383838;
+
+}
+
+.session8{
+    background: #0075FF;
+    display: flex;
+    flex-direction: row;
+    height: 681px;
+}
+.session8 .downloadApp{
+    color: white;
+}
+.session8 .downloadApp h2{
+    width: 302px;
+    height: 70px;
+    padding: 70px 30px 70px 90px;
+    left: 129px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.session8 .downloadApp p{
+    width: 540px;
+    height: 72px;
+    top: 210px;
+    left: 129px;
+    font-weight: 400;
+    padding: 30px 30px 30px 90px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.session8 .store{
+    padding: 30px 30px 30px 90px;
+}
+.session8 .playPlay{
+    padding-left: 30px;
+}
+
+.session8 .iphone3{
+    padding-left: 210px;
+}
+.iphone3 .phone1{
+    padding-bottom: 90px;
+}
+.iphone3 .phone2{
+    padding-left: 20px;
+}
+.session9{
+    padding-top: 49px;
+    padding-bottom: 20px;
+}
+.session9 .speak p{
+    line-height: 30px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: #949EB0;
+
+}
+hr{
+    background: #949EB0;
+    border: 1px solid #949EB0;
+
+}
+.speak .speaker{
+    width: 3px;
+    height: 3px;
+}
+.avatar{
+    margin-top: 20px;
+}
+.session9 h2{
+    width: 880px;
+    height: 65px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65.28px;
+    padding: 35px 35px 35px 90px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.session9 .customers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px 40px 40px 40px;
+    /* padding: 40px; */
+}
+.session9 .customers .speak{
+    border: 1px solid transparent;
+    box-shadow: 4px 4px 4px rgb(199, 195, 195);
+    width: 388px;
+    height: 452px;
+    border-radius: 16px;
+    padding: 20px 20px 20px 20px; 
+}
+.session9 .customers .speaky{
+    border: 1px solid transparent;
+    box-shadow: 4px 4px 4px rgb(199, 195, 195);
+    width: 408px;
+    height: 492px;
+    border-radius: 16px;
+    /* padding-left: 20px; */
+}
+.session9 .customers .speaker{
+    border: 1px solid transparent;
+    box-shadow: 4px 4px 4px rgb(199, 195, 195);
+    width: 408px;
+    height: 492px;
+    border-radius: 16px;
+    padding-left: 20px; 
+    margin-left: 20px;
+}
+.arrow{
+    display: flex;
+    flex-direction: row;
+    padding-left: 70px;
+    padding-bottom: 40px;
+}
+.arrow .back{
+    padding-left: 24px;
+}
+@media (min-width: 220px) and (max-width: 640px) {
+    .session1{
+        display: flex;
+        flex-direction: column;
+        padding: 70px 30px 0px 25px;
+    } 
+    
+    .perfect h4{
+        width: 296px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 32.16px;
+        height: 52px;
+        padding: 0 70px 85px 0px;
+        text-transform: capitalize;  
+    }
+    .perfect p{
+        width: 250px;
+        font-size: 16px;
+        line-height: 21.25px;
+        font-weight: 300;
+        height: 62px;
+        left: 80px;
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+    .btnGet{
+        /* padding-left: 40px; */
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+    .iphone{
+        padding-left: 40px;
+    }
+    .iphone1{
+        width: 95.03px;
+        height: 431.69px;
+        top: 2.03px;
+        padding-left: 1.2px;
+    }
+    .iphone2{
+        width: 82.27px;
+        height: 422.34px;
+        top: 2.03;
+        left: 2.03;
+        padding-top: 50px;
+    }
+
+    .brand{
+        display: grid;
+        grid-template-columns: 2, 2fr;
+        justify-content: space-evenly;
+        color: white;
+    }
+    .session2{
+        padding-right: 85px;
+    }
+
+    .session8{
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+    }
+    .session8 .downloadApp h2{
+        width: 212px;
+        height: 70px;
+        
+        padding: 70px 30px 70px 18px;
+        left: 129px;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 64px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .session8 .downloadApp p{
+        width: 300px;
+        height: 72px;
+        top: 210px;
+        left: 129px;
+        font-weight: 400;
+        padding: 30px 30px 30px 18px;
+        font-size: 14px;
+        line-height: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .session8 .store{
+        padding: 30px 30px 30px 40px;
+    }
+    .session8 .playPlay{
+        padding-left: 0px;
+    }
+    
+    .session8 .iphone3{
+        padding-left: 60px;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 100px;
+    }
+    .iphone3 .phone1{
+        width: 95.03px;
+        height: 431.69px;
+        top: 2.03px;
+        padding-left: 1.2px;
+    }
+    .iphone3 .phone2{
+        width: 82.27px;
+        height: 422.34px;
+        top: 2.03;
+        left: 2.03;
+        padding-top: 50px;
+    }
+    .session3{
+        padding-right: 330px;
+    }
+    .session3 img{
+        padding-left: 40px;
+        width: 300px;
+        display: none;
+    }
+
+    .aboutTell{
+        padding-left: 30px;
+    }
+    .aboutTell h1{
+        font-size: 28px;
+        font-weight: 600;
+        width: 153px;
+        height: 65px;
+        line-height: 55.28px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .aboutTell p{
+        font-weight: 400px;
+        font-size: 18px;
+        line-height: 27px;
+        width: 250px;
+        padding-bottom: 190px;
+        
+    }
+    .aboutTell button{
+        margin-top: 100px;
+    }
+
+    .session4 {
+        padding-top: 60px;
+        padding-left: 18px;
+    }
+    .session4 h1{
+        padding-left: 0px;
+        width: 250px;
+    }
+    .session4 .realsteps{
+        display: flex;
+        flex-direction: column;
+    }
+    .session4 .steps{
+        margin-bottom: 30px;
+        width: 230px;
+        border-radius: 5px;
+        height: 230px;
+    }
+    .session4 h4{
+        height: 30px;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 30.28px;
+        padding: 5px 10px 40px 5px;
+    }
+    .session5{
+        display: flex;
+        flex-direction: column;
+        padding: 30px 20px 20px 18px;
+    }
+    .session5a h2{
+        width: 250.74px;
+        padding-bottom: 0px;
+        height: 130px;
+        line-height: 45.28px;
+        font-size: 38px;
+        top: 40px;
+        font-weight: 600;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    }
+    .session5a p{
+        width: 270px;
+        height: 88px;
+        top: 230px;
+        padding-bottom: 80px;
+    }
+    .session5b{
+        padding-left: 0px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .session5b .secure{
+        border: 1px solid transparent;
+        border-radius: 5px;
+        background: #FCB04B40;
+        width: 250px;
+        height: 170px;
+        padding-left: 0px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+    .session5b .secured{
+        border: 1px solid transparent;
+        background: #FCAE4940;
+        border-radius: 5px;
+        width: 250px;
+        height: 170px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-top: 10px;
+    }
+    .session5b .securer{
+        border: 1px solid transparent;
+        border-radius: 5px;
+        background: #0075FF40;
+        width: 250px;
+        height: 170px;
+        padding-top: 10px;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    .session5b h2{
+        line-height: 30.6px;
+        width: 276.85px;
+        font-size: 22.15px;
+        font-weight: 600;
+        padding-left: 10px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .session5b p{
+        width: 212px;
+        padding: 10px;
+        font-size: 14.77px;
+        font-weight: 400;
+        line-height: 18.44px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .session6 h1{
+        width: 290px;
+        height: 65px;
+        left: 1px;
+        padding: 20px 20px 20px 18px;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 45.28px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .session6 .explore{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* padding-top: 18px;
+        padding-right: 40px; */
+        padding: 18px 18px 1px 0px;
+    }
+    .session7 h1{
+        padding: 0px 20px 20px 18px;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 45.28px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .session7 .recommend{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px 20px 20px 0px;
+    }
+
+    .session7 .commend{
+        border: 2px solid #949EB0;
+        width: 270px;
+        height: 244px;
+        top: 129px;
+        border-radius: 5px;
+        margin-left: 16px;
+        margin-bottom: 40px;
+    }
+    .recommend .plum .ville p{
+        color: #130F26;
+        font-weight: 400;
+        line-height: 23.44px;
+        font-size: 18px;
+    
+    }
+    .recommend h4{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21.35px;
+    }
+    .commend h4{
+        padding: 1px 20px 1px 20px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21.25px;
+        color: #130F26;
+    
+    }
+    .commend p{
+        padding: 5px 20px 5px 20px;
+        line-height: 22px;
+        font-weight: 400;
+        font-size: 12px;
+        color: #383838;
+    }
+    .session9{
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+    .session9 .speak p{
+        line-height: 23px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        color: #949EB0;
+    
+    }
+    .session9 h2{
+        width: 300px;
+        height: 65px;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 45.28px;
+        padding: 35px 35px 35px 18px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .session9 .customers{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+        justify-content: space-evenly;
+        padding: 30px 40px 40px 18px;
+        /* padding: 40px; */
+    }
+    .session9 .customers .speak{
+        border: 1px solid transparent;
+        box-shadow: 4px 4px 4px rgb(199, 195, 195);
+        width: 220px;
+        height: 452px;
+        border-radius: 16px;
+        padding: 20px 20px 20px 20px; 
+    }
+    .session9 .customers .speaky{
+        border: 1px solid transparent;
+        box-shadow: 4px 4px 4px rgb(199, 195, 195);
+        width: 408px;
+        height: 492px;
+        border-radius: 16px;
+        /* padding-left: 20px; */
+    }
+    .session9 .customers .speaker{
+        border: 1px solid transparent;
+        box-shadow: 4px 4px 4px rgb(199, 195, 195);
+        width: 408px;
+        height: 492px;
+        border-radius: 16px;
+        padding-left: 20px; 
+        margin-left: 20px;
+    }
+    .arrow{
+        display: flex;
+        flex-direction: row;
+        padding-left: 70px;
+        padding-bottom: 40px;
+    }
+    .arrow .back{
+        padding-left: 24px;
+    }
+  }
+
+  @media (min-width: 641px) and (max-width: 768px) {
+    .session1{
+        display: flex;
+        flex-direction: column;
+        padding: 70px 30px 0px 35px;
+    } 
+    .perfect h4{
+        width: 296px;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 32.16px;
+        height: 2px;
+        padding: 0 70px 85px 0px;
+        text-transform: capitalize;  
+    }
+    .perfect p{
+        width: 290px;
+        font-size: 16px;
+        line-height: 21.25px;
+        font-weight: 300;
+        height: 62px;
+        left: 80px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .iphone1{
+        width: 95.03px;
+        height: 431.69px;
+        top: 2.03px;
+        padding-left: 1.2px;
+    }
+    .iphone2{
+        width: 82.27px;
+        height: 422.34px;
+        top: 2.03;
+        left: 2.03;
+        padding-top: 50px;
+    }
+
+    .brand{
+        display: grid;
+        grid-template-columns: 2, 2fr;
+        justify-content: space-evenly;
+        color: white;
+    }
+
+    .session8{
+        display: flex;
+        flex-direction: column;
+        height: 1211px;
+    }
+    .session8 .downloadApp h2{
+        width: 212px;
+        height: 70px;
+        
+        padding: 70px 30px 70px 40px;
+        left: 129px;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 64px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .session8 .downloadApp p{
+        width: 340px;
+        height: 72px;
+        top: 210px;
+        left: 129px;
+        font-weight: 400;
+        padding: 30px 30px 30px 40px;
+        font-size: 14px;
+        line-height: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .session8 .store{
+        padding: 30px 30px 30px 90px;
+    }
+    .session8 .playPlay{
+        padding-left: 30px;
+    }
+    
+    .session8 .iphone3{
+        padding-left: 40px;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 100px;
+    }
+    .iphone3 .phone1{
+        padding-bottom: 90px;
+    }
+    .iphone3 .phone2{
+        padding-left: 20px;
+    }
+
+
+    .session3 img{
+        padding-left: 40px;
+        width: 300px;
+        display: none;
+    }
+
+    .aboutTell{
+        padding-left: 40px;
+    }
+    .aboutTell h1{
+        font-size: 28px;
+        font-weight: 600;
+        width: 153px;
+        height: 65px;
+        line-height: 55.28px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .aboutTell p{
+        font-weight: 400px;
+        font-size: 18px;
+        line-height: 27px;
+        width: 290px;
+        padding-bottom: 90px;
+        
+    }
+    .aboutTell button{
+        margin-top: 100px;
+    }
+
+    .session4 {
+        padding-top: 60px;
+        padding-left: 40px;
+    }
+    .session4 h1{
+        padding-left: 40px;
+    }
+    .session4 .realsteps{
+        display: flex;
+        flex-direction: column;
+    }
+    .steps{
+        margin-bottom: 30px;
+        width: 250px;
+        height: 160px;
+    }
+    .session5{
+        display: flex;
+        flex-direction: column;
+        padding: 30px 20px 20px 40px;
+    }
+    .session5a h2{
+        width: 300.74px;
+        padding-bottom: 0px;
+        height: 130px;
+        line-height: 45.28px;
+        font-size: 38px;
+        top: 40px;
+        font-weight: 600;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    }
+    .session5a p{
+        width: 200px;
+        height: 188px;
+        top: 230px;
+        padding-bottom: 80px;
+    }
+    .session5b{
+        padding-left: 0px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .session5b .secure{
+        border: 1px solid transparent;
+        border-radius: 5px;
+        background: #FCB04B40;
+        width: 250px;
+        height: 170px;
+        padding-left: 0px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        padding-top: 10px;
+    }
+    .session5b .secured{
+        border: 1px solid transparent;
+        background: #FCAE4940;
+        border-radius: 5px;
+        width: 250px;
+        height: 170px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding-top: 10px;
+    }
+    .session5b .securer{
+        border: 1px solid transparent;
+        border-radius: 5px;
+        background: #0075FF40;
+        width: 250px;
+        height: 170px;
+        padding-top: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .session5b h2{
+        line-height: 30.6px;
+        width: 276.85px;
+        font-size: 22.15px;
+        font-weight: 600;
+        padding-left: 10px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .session5b p{
+        width: 212px;
+        padding: 10px;
+        font-size: 14.77px;
+        font-weight: 400;
+        line-height: 18.44px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .session6 h1{
+        width: 290px;
+        height: 65px;
+        left: 1px;
+        padding: 20px 20px 20px 40px;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 45.28px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .session6 .explore{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 18px;
+    }
+    .session7 h1{
+        padding: 0px 20px 20px 40px;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 45.28px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .session7 .recommend{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px 20px 20px 0px;
+    }
+
+    .session7 .commend{
+        border: 2px solid #949EB0;
+        width: 270px;
+        height: 244px;
+        top: 129px;
+        border-radius: 5px;
+        margin-left: 40px;
+        margin-bottom: 40px;
+    }
+    .recommend .plum .ville p{
+        color: #130F26;
+        font-weight: 400;
+        line-height: 23.44px;
+        font-size: 18px;
+    
+    }
+    .recommend h4{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21.35px;
+    }
+    .commend h4{
+        padding: 1px 20px 1px 20px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21.25px;
+        color: #130F26;
+    
+    }
+    .commend p{
+        padding: 5px 20px 5px 20px;
+        line-height: 22px;
+        font-weight: 400;
+        font-size: 12px;
+        color: #383838;
+    
+    }
+
+    .session9{
+        padding-top: 569px;
+        padding-bottom: 20px;
+    }
+   
+
+    .session9 h2{
+        width: 350px;
+        height: 65px;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 45.28px;
+        padding: 35px 35px 35px 40px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .session9 .customers{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 30px 40px 40px 40px;
+        /* padding: 40px; */
+    }
+    .session9 .customers .speak{
+        border: 1px solid transparent;
+        box-shadow: 4px 4px 4px rgb(199, 195, 195);
+        width: 388px;
+        height: 452px;
+        border-radius: 16px;
+        padding: 20px 20px 20px 20px; 
+    }
+    .session9 .customers .speaky{
+        border: 1px solid transparent;
+        box-shadow: 4px 4px 4px rgb(199, 195, 195);
+        width: 408px;
+        height: 492px;
+        border-radius: 16px;
+        /* padding-left: 20px; */
+    }
+    .session9 .customers .speaker{
+        border: 1px solid transparent;
+        box-shadow: 4px 4px 4px rgb(199, 195, 195);
+        width: 408px;
+        height: 492px;
+        border-radius: 16px;
+        padding-left: 20px; 
+        margin-left: 20px;
+    }
+    .arrow{
+        display: flex;
+        flex-direction: row;
+        padding-left: 70px;
+        padding-bottom: 40px;
+    }
+    .arrow .back{
+        padding-left: 24px;
+    }
+  }
+  
+
+
+
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .session1{
+        display: flex;
+        flex-direction: column;
+    } 
+    .perfect h4{
+        width: 496px;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 46.16px;
+        height: 152px;
+        padding: 0 100px 125px 0px;
+        text-transform: capitalize;
+        
+        
+    }
+    .perfect p{
+        width: 490px;
+        font-size: 16px;
+        line-height: 21.25px;
+        font-weight: 300;
+        height: 62px;
+        left: 80px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .iphone1{
+        width: 195.03px;
+        height: 531.69px;
+        top: 2.03px;
+        padding-left: 1.2px;
+    }
+    .iphone2{
+        width: 182.27px;
+        height: 522.34px;
+        top: 2.03;
+        left: 2.03;
+        padding-top: 50px;
+    }
+
+    .brand{
+        display: grid;
+        grid-template-columns: 4, 2fr;
+        justify-content: space-evenly;
+        color: white;
+    }
+
+    .session8{
+        display: flex;
+        flex-direction: column;
+        height: 1150px;
+    }
+    .session8 .downloadApp h2{
+        width: 412px;
+        height: 70px;
+        
+        padding: 70px 30px 70px 40px;
+        left: 129px;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 64px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .session8 .downloadApp p{
+        width: 440px;
+        height: 72px;
+        top: 210px;
+        left: 129px;
+        font-weight: 400;
+        padding: 30px 30px 30px 40px;
+        font-size: 14px;
+        line-height: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .session8 .store{
+        padding: 30px 30px 30px 90px;
+    }
+    .session8 .playPlay{
+        padding-left: 30px;
+    }
+    
+    .session8 .iphone3{
+        padding-left: 40px;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 100px;
+    }
+    .iphone3 .phone1{
+        padding-bottom: 90px;
+    }
+    .iphone3 .phone2{
+        padding-left: 20px;
+    }
+
+
+    .session3 img{
+        padding-left: 40px;
+        width: 300px;
+        display: none;
+    }
+
+    .aboutTell{
+        padding-left: 40px;
+    }
+    .aboutTell h1{
+        font-size: 28px;
+        font-weight: 600;
+        width: 353px;
+        height: 65px;
+        line-height: 55.28px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .aboutTell p{
+        font-weight: 400px;
+        font-size: 18px;
+        line-height: 27px;
+        width: 590px;
+        padding-bottom: 0px;
+        
+    }
+    .aboutTell button{
+        margin-top: 10px;
+    }
+
+    .session4 {
+        padding-top: 30px;
+    }
+    .session4 h1{
+        padding-left: 40px;
+    }
+    .session4 .realsteps{
+        display: flex;
+        flex-direction: column;
+        padding-left: 90px;
+    }
+    .steps{
+        margin-bottom: 30px;
+        width: 300px;
+        height: 170px;
+    }
+
+    .session5{
+        display: flex;
+        flex-direction: column;
+        padding: 30px 20px 20px 40px;
+    }
+    .session5a h2{
+        width: 500.74px;
+        padding-bottom: 0px;
+        height: 130px;
+        line-height: 45.28px;
+        font-size: 38px;
+        top: 40px;
+        font-weight: 600;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    }
+    .session5a p{
+        width: 550px;
+        height: 188px;
+        top: 230px;
+        padding-bottom: 80px;
+    }
+    .session5b{
+        padding: 10px 40px 10px 120px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .session5b .secure{
+        border: 1px solid transparent;
+        border-radius: 5px;
+        background: #FCB04B40;
+        width: 250px;
+        height: 170px;
+        padding-left: 0px;
+        margin-bottom: 30px;
+        margin-top: 50px;
+        padding-top: 10px;
+    }
+    .session5b .secured{
+        border: 1px solid transparent;
+        background: #FCAE4940;
+        border-radius: 5px;
+        width: 250px;
+        height: 170px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-top: 10px;
+    }
+    .session5b .securer{
+        border: 1px solid transparent;
+        border-radius: 5px;
+        background: #0075FF40;
+        width: 250px;
+        height: 170px;
+        padding-top: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .session5b h2{
+        line-height: 30.6px;
+        width: 276.85px;
+        font-size: 22.15px;
+        font-weight: 600;
+        padding-left: 10px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .session5b p{
+        width: 212px;
+        padding: 10px;
+        font-size: 14.77px;
+        font-weight: 400;
+        line-height: 18.44px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .session6 h1{
+        width: 390px;
+        height: 10px;
+        left: 1px;
+        padding: 0px 20px 0px 40px;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 45.28px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .session6 .explore{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 58px 58px 58px 130px;
+    }
+    .session7 h1{
+        padding: 0px 20px 20px 40px;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 45.28px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .session7 .recommend{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px 90px 20px 130px;
+    }
+
+    .session7 .commend{
+        border: 2px solid #949EB0;
+        width: 270px;
+        height: 244px;
+        top: 129px;
+        border-radius: 5px;
+        margin-left: 40px;
+        margin-bottom: 40px;
+    }
+    .recommend .plum .ville p{
+        color: #130F26;
+        font-weight: 400;
+        line-height: 23.44px;
+        font-size: 18px;
+    
+    }
+    .recommend h4{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21.35px;
+    }
+    .commend h4{
+        padding: 1px 20px 1px 20px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21.25px;
+        color: #130F26;
+    
+    }
+    .commend p{
+        padding: 5px 20px 5px 20px;
+        line-height: 22px;
+        font-weight: 400;
+        font-size: 12px;
+        color: #383838;
+    
+    }
+
+    .session9{
+        padding-top: 9px;
+        padding-bottom: 20px;
+    }
+    .session9 .speak p{
+        line-height: 20px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        color: #949EB0;
+    
+    }
+    .session9 h2{
+        width: 400px;
+        height: 65px;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 45.28px;
+        padding: 35px 35px 35px 40px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .session9 .customers{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 30px 40px 40px 40px;
+        /* padding: 40px; */
+    }
+    .session9 .customers .speak{
+        border: 1px solid transparent;
+        box-shadow: 4px 4px 4px rgb(199, 195, 195);
+        width: 388px;
+        height: 452px;
+        margin-bottom: 50px;
+        border-radius: 16px;
+        padding: 20px 20px 20px 20px; 
+    }
+    .session9 .customers .speaky{
+        border: 1px solid transparent;
+        box-shadow: 4px 4px 4px rgb(199, 195, 195);
+        width: 408px;
+        height: 492px;
+        border-radius: 16px;
+        /* padding-left: 20px; */
+    }
+    .session9 .customers .speaker{
+        border: 1px solid transparent;
+        box-shadow: 4px 4px 4px rgb(199, 195, 195);
+        width: 408px;
+        height: 492px;
+        border-radius: 16px;
+        padding-left: 20px; 
+        margin-left: 20px;
+    }
+    .arrow{
+        display: flex;
+        flex-direction: row;
+        padding-left: 70px;
+        padding-bottom: 40px;
+    }
+    .arrow .back{
+        padding-left: 24px;
+    }
+
+  }
