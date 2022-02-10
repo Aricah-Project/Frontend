@@ -1,6 +1,6 @@
 import React from "react"
 import styles from './ContactUs.module.css'
-import contact from '../Asset/contactUs.png'
+// import contact from '../Asset/contactUs.png'
 import connect from '../Asset/connect.png'
 import location from '../Asset/Location.png'
 import message from '../Asset/Message.png'
