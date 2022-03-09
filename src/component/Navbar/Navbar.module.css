@@ -7,7 +7,7 @@
 .row{
     display: flex;
     flex-direction: row;
-    padding: 15px 25px 15px 30px;
+    padding: 15px 20px 15px 20px;
 }
 .logo{
     padding-top: 10px;
@@ -15,7 +15,7 @@
 .guide{
     text-decoration: none;
     color: #000;
-    padding-left: 40px;
+    padding-left: 35px;
     font-size: 16px;
     font-weight: 500;
     font-family: sans-serif;
@@ -44,7 +44,7 @@
     border: 1px solid black;
     border-radius: 5px;
     padding-top: 15px;
-    padding-left: 30px;
+    padding-left: 28px;
 }
 .guidin{
     text-decoration: none;
@@ -62,20 +62,18 @@
     border-radius: 5px;
     margin-left: 30px;
     padding-top: 15px;
-    padding-left: 30px;
+    padding-left: 28px;
 }
 .ham{
-    padding-left: 700px;
+    padding-left: 650px;
     display: flex;
     flex-direction: row;
 }
 
 @media (min-width: 220px) and (max-width: 640px) {
-    .ham{
-        display: none;
-    }
     .row{
-        padding: 15px 25px 15px 18px;
+        flex-direction: column;
+        padding: 15px 10px 15px 10px;
     }
     .guide{
         text-decoration: none;
@@ -87,17 +85,16 @@
     }
 }
 @media (min-width: 641px) and (max-width: 768px) {
-    .ham{
-        display: none;
-    }
+   
 
     .row{
-        padding: 15px 25px 15px 21px;
+        flex-direction: column;
+        padding: 15px 15px 15px 15px;
     }
     .guide{
         text-decoration: none;
         color: #000;
-        padding-left: 21px;
+        padding-left: 18px;
         font-size: 16px;
         font-weight: 500;
         font-family: sans-serif;
@@ -105,11 +102,10 @@
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-    .ham{
-        display: none;
-    }
+    
     .row{
-        padding: 15px 25px 15px 23px;
+        flex-direction: column;
+        padding: 15px 18px 15px 18px;
     }
     .guide{
         text-decoration: none;
