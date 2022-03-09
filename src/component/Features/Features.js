@@ -15,15 +15,18 @@ import Avatar from '../Asset/Avatar.png'
 import DP from '../Asset/DP.png'
 import frontarrow from '../Asset/Frontarrow.png'
 import backarrow from '../Asset/Back arrow.png'
-// import speak from '../Asset/speak.png'
 
 
 function Features() {
     return(
+//         <ChakraProvider>
+// <CSSReset />
+// <Container maxW="fit-content">
+
         <div className={styles.features}>
             <div className={styles.session1}>
                 <div className={styles.perfect}>
-                    <h4 className='styles.role'>Get matched to your
+                    <h4 className={styles.role}>Get matched to your
                     perfect role whether you are a job seeker or a job giver.</h4>
                     <p>Save time and reduce stress.
                        Get prepared and ready to kickstart your career journey. Find that perfect
@@ -378,6 +381,9 @@ function Features() {
                 <img src={backarrow} alt='backarrow' className={styles.back} />
             </div>
         </div>
+    
+        // </Container>
+        // </ChakraProvider>
     )
 }
 
