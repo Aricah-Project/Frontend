@@ -15,11 +15,15 @@ import Avatar from '../Asset/Avatar.png'
 import DP from '../Asset/DP.png'
 import frontarrow from '../Asset/Frontarrow.png'
 import backarrow from '../Asset/Back arrow.png'
-// import speak from '../Asset/speak.png'
 
+import { ChakraProvider, CSSReset, Box, Container } from "@chakra-ui/react";
 
 function Features() {
     return(
+//         <ChakraProvider>
+// <CSSReset />
+// <Container maxW="fit-content">
+// <Box>
         <div className={styles.features}>
             <div className={styles.session1}>
                 <div className={styles.perfect}>
@@ -378,6 +382,9 @@ function Features() {
                 <img src={backarrow} alt='backarrow' className={styles.back} />
             </div>
         </div>
+        // </Box>
+        // </Container>
+        // </ChakraProvider>
     )
 }
 
