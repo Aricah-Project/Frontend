@@ -103,7 +103,7 @@
 .session8 .downloadApp h2{
     width: 302px;
     height: 70px;
-    padding: 70px 30px 70px 90px;
+    padding: 70px 30px 70px 50px;
     left: 129px;
     font-weight: 600;
     font-size: 48px;
@@ -116,13 +116,13 @@
     top: 210px;
     left: 129px;
     font-weight: 400;
-    padding: 30px 30px 30px 90px;
+    padding: 30px 30px 30px 50px;
     font-size: 16px;
     line-height: 24px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .session8 .store{
-    padding: 30px 30px 30px 90px;
+    padding: 30px 30px 30px 50px;
 }
 .session8 .playPlay{
     padding-left: 30px;
@@ -137,7 +137,6 @@
 .iphone3 .phone2{
     padding-left: 20px;
 }
-
 @media (min-width: 220px) and (max-width: 640px) {
     .contact{
         /* background: image("../Asset/connect.png", #130F26D1); */
@@ -146,46 +145,44 @@
         height: 104px;
         filter: opacity(0.5) drop-shadow(0 0 0 rgb(0, 0, 214));
         position: relative;
-        width: 300px;
+        width: 240px;
         margin-left: 30px;
+        margin-top: 30px;
     }
     .contact img{
-        width: 300px;
+        width: 240px;
         height: 160px;
         /* margin-left: 40px; */
     }
     .con{
         font-weight: 700;
-        font-size: 30px;
+        font-size: medium;
         line-height: 41.2px;
     }
     .help{
         position: absolute;
         top: 160px;
-        left: 70px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color: #ffffff;
+        left: 50px;
     }
     .you{
         font-weight: 500;
-        font-size: 12px;
+        font-size: small;
         line-height: 13.44px;
-        width: 250px;
+        width: 190px;
+        text-align: justify;
     }
     
     .intouch{
         color: #0075FF;
-        padding: 90px 30px 0px 40px;
+        padding: 80px 30px 0px 30px;
         height: 60px;
-        font-weight: 500;
-        font-size: 26px;
-        /* line-height: 39.89px; */
-        font-family: sans-serif; 
+        font-weight: 700;
+        font-size: medium;
     }
     .locale{
         display: flex;
         flex-direction: column;
-        padding: 0px 50px 50px 40px; 
+        padding: 0px 50px 20px 30px; 
     }
     .locate{
         margin-left: 0px;
@@ -193,12 +190,10 @@
     }
     .location p{
         width: 208px;
-        padding-top: 10px;
+        padding-top: 0px;
         line-height: 31.25px;
-        color: #418DF9;
         font-weight: 500;
-        font-size: 24px;
-        font-family: sans-serif;
+        font-size: medium;
     }
     .location img{
         margin-left: 5px;
@@ -206,10 +201,10 @@
     .connect{
         display: flex;
         flex-direction: column;
-        margin: 20px;
+        margin: 30px;
     }
     .usreach img{
-        width: 300px;
+        width: 240px;
         height: 260px;
     }
     .add{
@@ -218,10 +213,10 @@
         
     }
     .mail{
-        width: 276px;
+        width: 218px;
         padding-top: 20px;
         padding-left: 25px;
-        height: 56px;
+        height: 40px;
         color: rgb(204, 197, 197);
         background: #F3F1F1;
         margin-bottom: 13px;
@@ -229,60 +224,60 @@
         border-radius: 5px;
     }
     .message{
-        height: 157px;
+        height: 130px;
         padding-top: 20px;
         padding-left: 25px;
-        width: 276px;
+        width: 218px;
         color: rgb(204, 197, 197);
         background: #F3F1F1;
         border-radius: 5px;
         margin-bottom: 20px;
     }
     .send{
-        height: 40px;
-        padding-top: 20px;
+        height: 30px;
+        padding-top: 10px;
         padding-left: 55px;
-        width: 243px;
+        width: 185px;
         color: rgb(255, 255, 255);
         background: #4E60D3;
         border-radius: 5px;
     }
-     .session8{
+    .session8{
         display: flex;
         flex-direction: column;
         height: 1000px;
     }
     .session8 .downloadApp h2{
-        width: 212px;
+        width: 270px;
         height: 70px;
-        
-        padding: 70px 30px 70px 40px;
+        padding: 30px 20px 50px 30px;
         left: 129px;
         font-weight: 600;
-        font-size: 38px;
+        font-size: 36px;
         line-height: 64px;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
     .session8 .downloadApp p{
-        width: 300px;
+        width: 230px;
         height: 72px;
         top: 210px;
         left: 129px;
+        text-align: justify;
         font-weight: 400;
-        padding: 30px 30px 30px 40px;
-        font-size: 14px;
+        padding: 30px 30px 30px 30px;
+        font-size: small;
         line-height: 24px;
         font-family: Arial, Helvetica, sans-serif;
     }
     .session8 .store{
-        padding: 30px 30px 30px 60px;
+        padding: 30px 20px 30px 30px;
     }
     .session8 .playPlay{
         padding-left: 0px;
     }
     
     .session8 .iphone3{
-        padding-left: 90px;
+        padding-left: 40px;
         display: flex;
         flex-direction: row;
         margin-bottom: 100px;
@@ -300,6 +295,7 @@
         left: 2.03;
         padding-top: 50px;
     }
+ 
 
 }
 
