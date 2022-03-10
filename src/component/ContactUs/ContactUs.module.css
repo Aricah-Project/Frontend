@@ -139,8 +139,6 @@
 }
 @media (min-width: 220px) and (max-width: 640px) {
     .contact{
-        /* background: image("../Asset/connect.png", #130F26D1); */
-        /* background: url("../Asset/connect.png"); */
         background-color: #1a1729d1;
         height: 104px;
         filter: opacity(0.5) drop-shadow(0 0 0 rgb(0, 0, 214));
