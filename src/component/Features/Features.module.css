@@ -1,6 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
-
-
 *{
     margin: 0;
     padding: 0;
@@ -35,7 +33,7 @@
     display: flex;
     flex-direction: row;
     grid-gap: 20px;
-    padding: 150px 30px 0px 90px;
+    padding: 150px 30px 0px 30px;
     
 }
 .perfect h4{
@@ -95,10 +93,10 @@
     padding-top: 60px;
 }
 .session3 img{
-    padding-left: 90px;
+    padding-left: 50px;
 }
 .aboutTell{
-    padding-left: 150px;
+    padding-left: 110px;
 }
 .aboutTell h1{
     font-size: 48px;
@@ -133,7 +131,7 @@
     padding-top: 100px;
 }
 .session4 h1{
-    padding-left: 90px;
+    padding-left: 50px;
 }
 .session4 .realsteps{
     display: flex;
@@ -163,7 +161,7 @@
 .session5{
     display: flex;
     flex-direction: row;
-    padding: 100px 40px 40px 90px;
+    padding: 100px 40px 40px 50px;
 }
 .session5a h2{
     width: 370.74px;
@@ -186,7 +184,7 @@
     line-height: 32px;
 }
 .session5b{
-    padding-left: 100px;
+    padding-left: 60px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-around;
@@ -198,7 +196,7 @@
     background: #FCB04B40;
     width: 400px;
     height: 220px;
-    padding-left: 25px;
+    padding-left: 20px;
     padding-top: 40px;
 }
 .session5b .secured{
@@ -239,7 +237,7 @@
 
     height: 65px;
     left: 1px;
-    padding: 20px 20px 20px 90px;
+    padding: 20px 20px 20px 50px;
     font-weight: 600;
     font-size: 48px;
     line-height: 65.28px;
@@ -277,7 +275,7 @@
 
 }
 .session7 h1{
-    padding: 50px 50px 50px 90px;
+    padding: 50px 50px 50px 50px;
     font-weight: 600;
     font-size: 48px;
     line-height: 65.28px;
@@ -286,7 +284,7 @@
 .session7 .recommend{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 20px 20px 20px 50px;
+    padding: 20px 20px 20px 30px;
 }
 .session7 .commend{
     border: 2px solid #949EB0;
@@ -351,7 +349,7 @@
 .session8 .downloadApp h2{
     width: 302px;
     height: 70px;
-    padding: 70px 30px 70px 90px;
+    padding: 70px 30px 70px 50px;
     left: 129px;
     font-weight: 600;
     font-size: 48px;
@@ -364,13 +362,13 @@
     top: 210px;
     left: 129px;
     font-weight: 400;
-    padding: 30px 30px 30px 90px;
+    padding: 30px 30px 30px 50px;
     font-size: 16px;
     line-height: 24px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .session8 .store{
-    padding: 30px 30px 30px 90px;
+    padding: 30px 30px 30px 50px;
 }
 .session8 .playPlay{
     padding-left: 30px;
@@ -414,14 +412,14 @@ hr{
     font-weight: 600;
     font-size: 48px;
     line-height: 65.28px;
-    padding: 35px 35px 35px 90px;
+    padding: 35px 35px 35px 50px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .session9 .customers{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 30px 40px 40px 40px;
+    padding: 30px 40px 40px 30px;
     /* padding: 40px; */
 }
 .session9 .customers .speak{
@@ -462,7 +460,7 @@ hr{
     .session1{
         display: flex;
         flex-direction: column;
-        padding: 70px 30px 0px 25px;
+        padding: 70px 20px 0px 20px;
     } 
     
     .perfect h4{
@@ -471,7 +469,7 @@ hr{
         font-weight: 400;
         line-height: 32.16px;
         height: 52px;
-        padding: 0 70px 85px 0px;
+        padding: 0 40px 85px 0px;
         text-transform: capitalize;  
     }
     .perfect p{
@@ -490,7 +488,7 @@ hr{
         padding-bottom: 10px;
     }
     .iphone{
-        padding-left: 40px;
+        padding-left: 20px;
     }
     .iphone1{
         width: 95.03px;
@@ -513,7 +511,7 @@ hr{
         color: white;
     }
     .session2{
-        padding-right: 85px;
+        padding-right: 65px;
     }
 
     .session8{
@@ -525,7 +523,7 @@ hr{
         width: 212px;
         height: 70px;
         
-        padding: 70px 30px 70px 18px;
+        padding: 70px 20px 70px 20px;
         left: 129px;
         font-weight: 600;
         font-size: 38px;
@@ -544,14 +542,14 @@ hr{
         font-family: Arial, Helvetica, sans-serif;
     }
     .session8 .store{
-        padding: 30px 30px 30px 40px;
+        padding: 30px 20px 30px 20px;
     }
     .session8 .playPlay{
         padding-left: 0px;
     }
     
     .session8 .iphone3{
-        padding-left: 60px;
+        padding-left: 30px;
         display: flex;
         flex-direction: row;
         margin-bottom: 100px;
@@ -570,16 +568,16 @@ hr{
         padding-top: 50px;
     }
     .session3{
-        padding-right: 330px;
+        padding-right: 300px;
     }
     .session3 img{
-        padding-left: 40px;
+        padding-left: 20px;
         width: 300px;
         display: none;
     }
 
     .aboutTell{
-        padding-left: 30px;
+        padding-left: 20px;
     }
     .aboutTell h1{
         font-size: 28px;
@@ -603,7 +601,7 @@ hr{
 
     .session4 {
         padding-top: 60px;
-        padding-left: 18px;
+        padding-left: 10px;
     }
     .session4 h1{
         padding-left: 0px;
@@ -624,12 +622,12 @@ hr{
         font-weight: 500;
         font-size: 25px;
         line-height: 30.28px;
-        padding: 5px 10px 40px 5px;
+        padding: 5px 5px 40px 5px;
     }
     .session5{
         display: flex;
         flex-direction: column;
-        padding: 30px 20px 20px 18px;
+        padding: 30px 10px 20px 15px;
     }
     .session5a h2{
         width: 250.74px;
@@ -705,7 +703,7 @@ hr{
         width: 290px;
         height: 65px;
         left: 1px;
-        padding: 20px 20px 20px 18px;
+        padding: 20px 10px 20px 18px;
         font-weight: 600;
         font-size: 28px;
         line-height: 45.28px;
@@ -716,10 +714,10 @@ hr{
         grid-template-columns: repeat(1, 1fr);
         /* padding-top: 18px;
         padding-right: 40px; */
-        padding: 18px 18px 1px 0px;
+        padding: 18px 10px 1px 0px;
     }
     .session7 h1{
-        padding: 0px 20px 20px 18px;
+        padding: 0px 10px 20px 10px;
         font-weight: 600;
         font-size: 28px;
         line-height: 45.28px;
@@ -761,7 +759,7 @@ hr{
     
     }
     .commend p{
-        padding: 5px 20px 5px 20px;
+        padding: 5px 10px 5px 10px;
         line-height: 22px;
         font-weight: 400;
         font-size: 12px;
@@ -784,7 +782,7 @@ hr{
         font-weight: 600;
         font-size: 28px;
         line-height: 45.28px;
-        padding: 35px 35px 35px 18px;
+        padding: 35px 20px 35px 18px;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
     .session9 .customers{
