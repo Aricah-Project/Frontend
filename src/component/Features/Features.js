@@ -11,11 +11,10 @@ import Apple from '../Asset/blackApple.png'
 import clients from '../Asset/clients.png'
 import Play from '../Asset/blackPlay.png'
 import Avatar from '../Asset/Avatar.png'
-// import divider from '../Asset/Divider.png'
+
 import DP from '../Asset/DP.png'
 import frontarrow from '../Asset/Frontarrow.png'
 import backarrow from '../Asset/Back arrow.png'
-// import speak from '../Asset/speak.png'
 
 
 function Features() {

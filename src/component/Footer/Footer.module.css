@@ -45,6 +45,8 @@
     .footer .place{
         display: grid;
         grid-template-columns: repeat(1, minmax(0, 1fr));
+        padding: 40px 30px 90px 30px;
+
     }
     .footer .place .menu{
         width: 382px;
@@ -52,11 +54,14 @@
         border-radius: 5px;
         padding: 20px;
         padding-top: 0;
-        padding-bottom: 60px; 
+        padding-bottom: 20px; 
+    }
+    .footer .place .menu h3 {
+        font-size: medium;
     }
     .footer .place .menu p{
         line-height: 20px;
-        font-size: 14px;
+        font-size: small;
         font-weight: 80;
     }
     .store{
