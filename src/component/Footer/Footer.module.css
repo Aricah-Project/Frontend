@@ -2,6 +2,7 @@
     background: #4E60D3;
     width: 100%;
     display: flex;
+    overflow-x: hidden;
 }
 .footer .place{
     display: flex;

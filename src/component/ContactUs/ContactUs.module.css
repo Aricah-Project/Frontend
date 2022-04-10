@@ -1,6 +1,7 @@
 
  .us{
      width: 100%;
+     overflow-x: hidden;
  }
  .contact{
     /* background: image("../Asset/connect.png", #130F26D1); */
