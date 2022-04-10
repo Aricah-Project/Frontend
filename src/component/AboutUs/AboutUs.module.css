@@ -52,6 +52,7 @@
 .one{
     width: 1280px;
     margin: 0px auto;
+    overflow-x: hidden;
 }
 .history{
     font-weight: 500;

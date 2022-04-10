@@ -9,6 +9,7 @@
 .features{
     width: 100%;
     box-sizing: border-box;
+    overflow-x: hidden;
     /* padding: 30px; */
 }
 .iphone{
