@@ -1,8 +1,11 @@
 .footer{
     background: #4E60D3;
     width: 100%;
+    justify-content: center;
+    align-items: center;
     display: flex;
     overflow-x: hidden;
+    /* height: 448px;  */
 }
 .footer .place{
     display: flex;

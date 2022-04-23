@@ -1,56 +1,64 @@
 import React from 'react'
 // import { Link } from 'react-router-dom'
 import styles from './Features.module.css'
-import iphone1 from '../Asset/iphone1.png'
-import iphone2 from '../Asset/iphone2.png'
-import aboutus from '../Asset/imageAboutUs.png'
 import user from '../Asset/User.png' 
 import search from '../Asset/Search.png'
+import about from '../Asset/about.png'
 import send from '../Asset/Send.png'
-import Apple from '../Asset/blackApple.png'
 import clients from '../Asset/clients.png'
-import Play from '../Asset/blackPlay.png'
 import Avatar from '../Asset/Avatar.png'
-
+import ph1 from '../Asset/X - 2.png'
+import ph2 from '../Asset/X - 3.png'
+import phoneX1 from '../Asset/PhoneX1.png'
+import phoneX2 from '../Asset/PhoneX2.png'
+import Apple from '../Asset/blackApple.png'
+import Play from '../Asset/blackPlay.png'
 import DP from '../Asset/DP.png'
 import frontarrow from '../Asset/Frontarrow.png'
 import backarrow from '../Asset/Back arrow.png'
+import apple from '../Asset/Apple.png'
+import player from '../Asset/player.png'
 
 
 function Features() {
     return(
+        <div className={styles.featr}>
         <div className={styles.features}>
             <div className={styles.session1}>
                 <div className={styles.perfect}>
-                    <h4 className='styles.role'>Get matched to your
-                    perfect role whether you are a job seeker or a job giver.</h4>
-                    <p>Save time and reduce stress.
-                       Get prepared and ready to kickstart your career journey. Find that perfect
-                        candidate for your company. Save time and stress of candidate search.
-                    </p>
+                    <h4 className='styles.role'>
+                        Find your dream job on <span className={styles.span}>Aricah</span> with ease!</h4>
+                    <p>Get the most exciting jobs from all around the 
+                       world and grow your career fast with others.</p>
                     <div className={styles.btnGet}>
-                        <button>Get Started</button>
+                        <button>Create Free Account</button>
                     </div>
+                    <div className={styles.change}>
+                    <button>
+                        <img src={apple} alt='apple' />
+                        <div className={styles.names}>Download on
+                              AppStore</div>
+                    </button>
+                    <button>
+                        <img src={player} alt='player' />
+                        <div className={styles.names}>Download on
+                             PlayStore</div>
+                    </button>
+                </div>
                 </div>
                 <div className={styles.iphone}>
-                    <img src={iphone1} alt='iphone1' className={styles.iphone1} />
-                    <img src={iphone2} alt='iphone2' className={styles.iphone2} />
-                </div>
-            </div>
-            <div className={styles.session2}>
-                <div className={styles.around}>Join most companies around the world</div>
-                <div className={styles.brand}>
-                    <p>Brand Logo</p>
-                    <p>Brand Logo</p>
-                    <p>Brand Logo</p>
-                    <p>Brand Logo</p>
-                    <p>Brand Logo</p>
+                    <div className={styles.ph}>
+                        <img src={ph1} alt='phone' className={styles.phImg} />
+                    </div>
+                    <div className={styles.phh}>
+                        <img src={ph2} alt='phone2' className={styles.phhImg} />
+                    </div>                   
                 </div>
             </div>
 
             <div className={styles.session3}>
                 <div className={styles.usAbout}>
-                    <img src={aboutus} alt='aboutus'  className={styles.imgAbout}/>
+                    <img src={about} alt='aboutus'  className={styles.imgAbout}/>
                 </div>
                 <div className={styles.aboutTell}>
                     <h1>About Us</h1>
@@ -291,7 +299,7 @@ function Features() {
                 <div className={styles.commend}>
                     <div className={styles.plum}>
                         <div className={styles.dp}>
-                            <img src={DP} alt='DP' className={styles.villemage}/>
+                             <img src={DP} alt='DP' className={styles.villemage}/>
                         </div>
                         <div className={styles.ville}>
                             <p>Plumville Int Ltd</p>
@@ -307,24 +315,27 @@ function Features() {
                 </div>
               </div>
             </div>
-            <div className={styles.session8}>
-                <div className={styles.downloadApp}>
-                    <h2>Download our App!</h2>
-                    <p>Lorem ipsum dolor sit amet, 
-                        consectetuer adipiscing elit.
-                         Aenean commodo ligula eget dolor. 
-                        Aenean massa. Cum sociis natoque 
-                        penatibus et magnis dis parturien</p>
-                    <div className={styles.store}>
-                        <img src={Apple} alt='Apple' className={styles.apple} />
-                        <img src={Play} alt='Play' className={styles.playPlay} />
-                    </div>
-                </div>
-                <div className={styles.iphone3}>
-                    <img src={iphone1} alt='phone'  className={styles.phone1}/>
-                    <img src={iphone2} alt='phone' className={styles.phone2} />
-                </div>
             </div>
+                
+            <div className={styles.session8}>
+     <div className={styles.downloadApp}>
+    <h2>Download our App!</h2>
+    <p>Lorem ipsum dolor sit amet, 
+        consectetuer adipiscing elit.
+         Aenean commodo ligula eget dolor. 
+        Aenean massa. Cum sociis natoque 
+        penatibus et magnis dis parturien</p>
+    <div className={styles.store}>
+        <img src={Apple} alt='Apple' className={styles.apple} />
+        <img src={Play} alt='Play' className={styles.playPlay} />
+    </div>
+ </div>
+ <div className={styles.iphone3}>
+    <img src={phoneX1} alt='phone'  className={styles.phone1}/>
+    <img src={phoneX2} alt='phone' className={styles.phone2} />
+  </div>
+  </div>
+           <div className={styles.features}>
             <div className={styles.session9}>
                 <h2>What our customers are saying about us</h2>
                 <div className={styles.customers}>
@@ -367,7 +378,8 @@ function Features() {
                                  <div className = {styles.divider}></div>
                         <div className= {styles.avatar}>
                             <img src={Avatar} alt='man' />
-                            <p>Femi Kuti</p>
+                            <div className={styles.kind}><p>Femi Kind</p>
+                            <p>Student</p></div>
                         </div>
                     </div >
                 </div>
@@ -376,6 +388,7 @@ function Features() {
                 <img src={frontarrow} alt='frontarrow' className={styles.front} />
                 <img src={backarrow} alt='backarrow' className={styles.back} />
             </div>
+        </div>
         </div>
     )
 }

@@ -1,7 +1,12 @@
 
  .us{
      width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
      overflow-x: hidden;
+     font-family: 'DM Sans', sans-serif;
  }
  .contact{
     /* background: image("../Asset/connect.png", #130F26D1); */
