@@ -1,8 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles from '../Footer/Footer.module.css'
-import playstore from '../Asset/play.png'
-import appstore from '../Asset/apple.png'
+// import playstore from '../Asset/play.png'
+// import appstore from '../Asset/apple.png'
+import apple from '../Asset/Apple.png'
+import player from '../Asset/player.png'
+
 
 function Footer() {
     return (
@@ -38,9 +41,17 @@ function Footer() {
                     <p style={{ textDecoration: 'none', color: 'white' }}>On your phone, tablet or PC</p>
                     <p style={{ textDecoration: 'none', color: 'white' }}>Make that life changing decision</p>
                     <div className={styles.store}>
-                        <Link to='/'><img src={playstore} alt="playstore" className={styles.playWhite}/></Link>
-                        <Link to='/'><img src={appstore} alt="appstore"  className={styles.appWhite}/></Link>
-                    </div>
+                    <button>
+                        <img src={apple} alt='apple' />
+                        <div>Download on
+                              AppStore</div>
+                    </button>
+                    <button>
+                        <img src={player} alt='player' />
+                        <div>Download on
+                             PlayStore</div>
+                    </button>
+                </div>
                 </div>
             </div>
         </div>

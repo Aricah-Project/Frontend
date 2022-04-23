@@ -5,6 +5,7 @@
     align-items: center;
     display: flex;
     overflow-x: hidden;
+    /* height: 448px;  */
 }
 .footer .place{
     display: flex;
