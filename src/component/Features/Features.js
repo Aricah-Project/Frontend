@@ -29,7 +29,7 @@ function Features() {
                     <h4 className='styles.role'>
                         Find your dream job on <span className={styles.span}>Aricah</span> with ease!</h4>
                     <p>Get the most exciting jobs from all around the 
-                       world and grow your career fast with others.</p>
+                       world and grow your career fast with others..</p>
                     <div className={styles.btnGet}>
                         <button>Create Free Account</button>
                     </div>
