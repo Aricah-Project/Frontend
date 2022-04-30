@@ -16,7 +16,7 @@ import Play from '../Asset/blackPlay.png'
 import DP from '../Asset/DP.png'
 import frontarrow from '../Asset/Frontarrow.png'
 import backarrow from '../Asset/Back arrow.png'
-import apple from '../Asset/Apple.png'
+// import apple from '../Asset/Apple.png'
 import player from '../Asset/player.png'
 
 
@@ -34,11 +34,11 @@ function Features() {
                         <button>Create Free Account</button>
                     </div>
                     <div className={styles.change}>
-                    <button>
+                    {/* <button>
                         <img src={apple} alt='apple' />
                         <div className={styles.names}>Download on
                               AppStore</div>
-                    </button>
+                    </button> */}
                     <button>
                         <img src={player} alt='player' />
                         <div className={styles.names}>Download on
