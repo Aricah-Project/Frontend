@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import styles from '../Footer/Footer.module.css'
 // import playstore from '../Asset/play.png'
 // import appstore from '../Asset/apple.png'
-import apple from '../Asset/Apple.png'
+// import apple from '../Asset/Apple.png'
 import player from '../Asset/player.png'
 
 
@@ -49,7 +49,7 @@ function Footer() {
                     <p style={{ textDecoration: 'none', color: 'white' }}>Make that life changing decision</p>
                     <div className={styles.store}>
                     <button>
-                        <img src={apple} alt='apple' />
+                        {/* <img src={apple} alt='apple' /> */}
                         <div>Download on
                               AppStore</div>
                     </button>
