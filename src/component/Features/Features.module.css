@@ -910,7 +910,7 @@ hr{
         flex-direction: row;
         padding-bottom: 40px;
         align-items: flex-start;
-        justify-content: start;
+        /* justify-content: start; */
         margin-top: 0px;
     }
     .avatar{
