@@ -16,7 +16,7 @@ import Play from '../Asset/blackPlay.png'
 import DP from '../Asset/DP.png'
 import frontarrow from '../Asset/Frontarrow.png'
 import backarrow from '../Asset/Back arrow.png'
-import apple from '../Asset/Apple.png'
+// import apple from '../Asset/Apple.png'
 import player from '../Asset/player.png'
 
 
@@ -29,16 +29,16 @@ function Features() {
                     <h4 className='styles.role'>
                         Find your dream job on <span className={styles.span}>Aricah</span> with ease!</h4>
                     <p>Get the most exciting jobs from all around the 
-                       world and grow your career fast with others.</p>
+                       world and grow your career fast with others..</p>
                     <div className={styles.btnGet}>
                         <button>Create Free Account</button>
                     </div>
                     <div className={styles.change}>
-                    <button>
+                    {/* <button>
                         <img src={apple} alt='apple' />
                         <div className={styles.names}>Download on
                               AppStore</div>
-                    </button>
+                    </button> */}
                     <button>
                         <img src={player} alt='player' />
                         <div className={styles.names}>Download on

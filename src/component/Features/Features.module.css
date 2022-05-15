@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     font-family: 'DM Sans', sans-serif;
-    /* box-sizing: border-box; */
 }
 .featr{
     width: 100%;
@@ -16,6 +15,8 @@
 .features{
     justify-content: center;
     align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .session1{
@@ -23,16 +24,11 @@
     flex-direction: row;
     gap: 50px;
     padding-right: 110px; 
-    padding-top: 30px;
-    
+    padding-top: 30px;  
 }
-/* .iphone{
-    
-} */
  .ph{
     z-index: 1;
     position: absolute;
-    
 }
 .phh{
     position: relative;
@@ -45,13 +41,10 @@
     line-height: 66.16px;
     height: 152px;
     width: 565px;
-    color: #130f26;
-    
-    
+    color: #130f26; 
 }
 .perfect{
-    padding-top: 130px;
-    
+    padding-top: 130px;  
 }
 .perfect p{
     width: 516px;
@@ -60,7 +53,6 @@
     font-weight: 400;
     left: 80px;
     color: #130f26;
-   
 }
 .btnGet{
     line-height: 10px;
@@ -379,10 +371,13 @@
 
 }
 
+
 .session8{
     background: #0075FF;
     gap: 25px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: row;
     height: 681px;
 }
@@ -909,13 +904,14 @@ hr{
         width: 408px;
         height: 492px;
         border-radius: 16px;
+        
     }
     .arrow{
         display: flex;
         flex-direction: row;
         padding-bottom: 40px;
         align-items: flex-start;
-        justify-content: start;
+        /* justify-content: start; */
         margin-top: 0px;
     }
     .avatar{

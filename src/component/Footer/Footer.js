@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import styles from '../Footer/Footer.module.css'
 // import playstore from '../Asset/play.png'
 // import appstore from '../Asset/apple.png'
-import apple from '../Asset/Apple.png'
+// import apple from '../Asset/Apple.png'
 import player from '../Asset/player.png'
 
 
@@ -12,17 +12,20 @@ function Footer() {
         <div className={styles.footer}>
             <div className={styles.place}>
                 <div className={styles.menu}>
-                    <h3 style={{ textDecoration: 'none', color: 'white' }} className={styles.bold}>Services</h3>
-                    <Link to='/'style={{ textDecoration: 'none', color: 'white' }}><p>Job Match</p></Link>
-                    <Link to='/'style={{ textDecoration: 'none', color: 'white' }}><p>Interview Preparation</p></Link>
+                    <h3 style={{ textDecoration: 'none', color: 'white' }} className={styles.bold}>Logo</h3>
+                    <Link to='/'style={{ textDecoration: 'none', color: 'white' }}><p>
+                        Aricah is a place where blah blah or
+                        it gives a place where blah blah, and
+                        also is a place where blah blah</p></Link>
+                    {/* <Link to='/'style={{ textDecoration: 'none', color: 'white' }}><p>Interview Preparation</p></Link>
                     <Link to='/'style={{ textDecoration: 'none', color: 'white' }}><p>CV Review</p></Link>
-                    <Link to='/'style={{ textDecoration: 'none', color: 'white' }}><p>Job Opportunities</p></Link>
+                    <Link to='/'style={{ textDecoration: 'none', color: 'white' }}><p>Job Opportunities</p></Link> */}
                 </div>
                 <div className={styles.menu}>
-                    <h3 style={{ textDecoration: 'none', color: 'white' }} className={styles.bold}>Company</h3>
-                    <Link to='/' style={{ textDecoration: 'none', color: 'white' }}><p className={styles.link}>About</p></Link>
+                    <h3 style={{ textDecoration: 'none', color: 'white' }} className={styles.bold}>Aricah</h3>
                     <Link to='/' style={{ textDecoration: 'none', color: 'white' }}><p className={styles.link}>FAQs</p></Link>
-                    <p style={{ textDecoration: 'none', color: 'white' }}>Connect with us</p>      
+                    <Link to='/' style={{ textDecoration: 'none', color: 'white' }}><p className={styles.link}>Terms and Condition</p></Link>
+                    <p style={{ textDecoration: 'none', color: 'white' }}>Privacy Policy</p>      
                     <div>
                         <i className>T</i>
                         <i className>L</i>
@@ -31,18 +34,22 @@ function Footer() {
                     </div>
                 </div>
                 <div className={styles.menu}>
-                    <h3 style={{ textDecoration: 'none', color: 'white' }} className={styles.bold}>Legal</h3>
-                    <Link to='/' style={{ textDecoration: 'none', color: 'white' }}><p className={styles.link}>Terms</p></Link>
-                    <Link to='/' style={{ textDecoration: 'none', color: 'white' }}><p className={styles.link}>Privacy</p></Link>
-                    <Link to='/' style={{ textDecoration: 'none', color: 'white' }}><p className={styles.link}>Security</p></Link>
+                    <h3 style={{ textDecoration: 'none', color: 'white' }} className={styles.bold}>Support</h3>
+                    <Link to='/' style={{ textDecoration: 'none', color: 'white' }}><p className={styles.link}>Customer Care</p></Link>
+                    <Link to='/' style={{ textDecoration: 'none', color: 'white' }}><p className={styles.link}>Quick Chat</p></Link>
+                    {/* <Link to='/' style={{ textDecoration: 'none', color: 'white' }}><p className={styles.link}>Security</p></Link> */}
                 </div>
                 <div className={styles.menu}>
                     <h3 style={{ textDecoration: 'none', color: 'white' }} className={styles.bold}>Download Aricah</h3>
-                    <p style={{ textDecoration: 'none', color: 'white' }}>On your phone, tablet or PC</p>
+                    <p style={{ textDecoration: 'none', color: 'white' }}>
+                        Download Aricah mobile app for
+                        IOS and Andriod devices, it helps
+                        you secure a future.
+                    </p>
                     <p style={{ textDecoration: 'none', color: 'white' }}>Make that life changing decision</p>
                     <div className={styles.store}>
                     <button>
-                        <img src={apple} alt='apple' />
+                        {/* <img src={apple} alt='apple' /> */}
                         <div>Download on
                               AppStore</div>
                     </button>
