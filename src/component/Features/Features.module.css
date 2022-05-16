@@ -422,8 +422,8 @@
     padding-top: 49px;
     padding-bottom: 20px;
 }
-.session9 .speak p{
-    line-height: 30px;
+.session9 .speak .child{
+    line-height: 40px;
     padding-top: 50px;
     padding-bottom: 30px;
     color: #949EB0;
@@ -439,7 +439,21 @@ hr{
     height: 3px;
 }
 .avatar{
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    display: flex;
+    gap: 20%;
+    flex-direction: row;
+}
+.kind{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    color: #949EB0;
+    
+}
+.avat{
+    width:50px;
+    height:50px;
 }
 .session9 h2{
     font-weight: 600;
@@ -458,7 +472,7 @@ hr{
     border: 1px solid transparent;
     box-shadow: 4px 4px 4px rgb(199, 195, 195);
     width: 388px;
-    height: 452px;
+    height: fit-content;
     border-radius: 16px;
     padding: 20px 20px 20px 20px; 
 }
@@ -474,6 +488,7 @@ hr{
     flex-direction: row;
     padding-bottom: 40px;
     gap: 24px;
+    margin-right: 88%; 
 }
 
 @media (min-width: 220px) and (max-width: 640px) {
@@ -484,7 +499,7 @@ hr{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        box-sizing: border-box;
+        box-sizing: border-box; 
         max-width: 640px;
        
     }
@@ -493,18 +508,25 @@ hr{
         flex-direction: column;
         padding-right: 0px;
     } 
+    .iphone{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
     .ph img{
-       width: 136px;
        height: 214px;
         
     }
     .phh img{
-        width: 136px;
        height: 214px;
     }
     .phh{
         left: 80px;
     } 
+    .perfect{
+        padding-top: 0%;
+    }
     .perfect h4{
         width: 325px;
         font-size: 32px;
@@ -524,20 +546,26 @@ hr{
         padding-bottom: 40px;
     }
     .btnGet{
-        padding-top: 30px;
+        padding-top: 10px;
         padding-bottom: 10px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
     }
     .btnGet button{
-        width: 254px;
+        width: 65%;
         height: 62px;
         font-size: 18px;
         font-weight: 500;
     }
     .change{
         flex-direction: column;
+        align-items: center;
+        display: flex;
+        justify-content: center;
     }
     .change button{
-        width: 221px;
+        width: 65%;
         height: 71px;
     }
 
@@ -556,9 +584,11 @@ hr{
     .session8{
         display: flex;
         flex-direction: column-reverse;
+        height: max-content;
         
     }
     .session8 .downloadApp h2{
+        margin: auto;
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -568,7 +598,8 @@ hr{
         line-height: 64px;
     }
     .session8 .downloadApp p{
-        width: 328px;
+        width: 90%;
+        margin: auto;
         height: 96px;
         text-align: center;
         justify-content: center;
@@ -586,22 +617,25 @@ hr{
         align-items: center;
     }
     .apple{
-        width: 220.48px;
+        width: 46%;
         height: 78px;
     }
     .playPlay{
-        width: 220.48px;
+        width: 46%;
         height: 78px;
     }
     
     .session8 .iphone3{
         display: flex;
+        flex-direction: column;
        justify-content: center;
        align-items: center;
     }
     .iphone3 .phone1{
-        width: 202.33px;
-        height: 370px; 
+        /* width: 202.33px; */
+        height: 93%; 
+        display: flex;
+
     }
     .iphone3 .phone2{
         display: none;
@@ -612,20 +646,30 @@ hr{
         padding-top: 0px;
     }
     .session3 img{
-        width: 340px;
+        width: 70%;
+        /* margin: auto; */
+        margin: auto;
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
     }
     .aboutTell h1{
         font-size: medium;
         font-weight: 600;
-        width: 200px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
         height: 65px;
         line-height: 55.28px;
         width: 100%;
-        margin: auto;
+       
     }
     .aboutTell p{
         font-weight: 400px;
-        width: 360px;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        /* display: flex; */
         margin: auto;
         font-size: small;
         line-height: 27px;
@@ -634,10 +678,18 @@ hr{
         text-align: justify;
         
     }
+    .aboutTell{
+        display: flex;
+        flex-direction: column;
+    }
     .aboutTell button{
         margin-top: 0px;
         font-size: small;
-        width: 100px;
+        padding-top: 10px;
+        width: 30%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
         height: 40px;
         border-radius: 5px;
     }
@@ -647,21 +699,27 @@ hr{
     }
     .session4 {
         padding-top: 30px;
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        
     }
     .session4 h1{
-        width: 349px;
+        /* width: 349px; */
         font-size: 20px;
+        text-align: center;
         font-weight: 600;
         padding-bottom: 0px;
     }
     .session4 .realsteps{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         gap: 0;
     }
     .session4 .steps{
         margin-bottom: 30px;
-        width: 388px;
         border-radius: 5px;
         height: 227px;
     }
@@ -680,12 +738,19 @@ hr{
     .session5{
         display: flex;
         flex-direction: column;
+        width: 90%;
+        margin: auto;
         padding-top: 10px;
         padding-bottom: 20px;
+        align-items: center;
+        justify-content: center;
     }
     .session5a h2{
-        width: 252.74px;
+        /* width: 252.74px; */
         padding-bottom: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         height: 60px;
         line-height: 45.28px;
         font-size: medium;
@@ -693,12 +758,11 @@ hr{
         font-weight: 600;    
     }
     .session5a p{
-        width: 370px;
         height: 38px;
         font-size: small;
         top: 210px;
-        line-height: 22px;
-        text-align: justify;
+        line-height: 30px;
+        text-align: center;
         padding-bottom: 70px;
     }
     .session5b{
@@ -710,7 +774,7 @@ hr{
         border: 1px solid transparent;
         border-radius: 5px;
         background: #FCB04B40;
-        width: 370px;
+        width: 95%;
         height: 227px;
         margin-bottom: 10px;
         margin-top: 10px;
@@ -720,7 +784,7 @@ hr{
         border: 1px solid transparent;
         background: #FCAE4940;
         border-radius: 5px;
-        width: 388px;
+        width: 100%;
         height: 227px;
         margin-top: 10px;
         margin-bottom: 10px;
@@ -730,7 +794,7 @@ hr{
         border: 1px solid transparent;
         border-radius: 5px;
         background: #0075FF40;
-        width: 388px;
+        width: 100%;
         height: 227px;
         padding-top: 10px;
         margin-top: 50px;
@@ -756,10 +820,17 @@ hr{
         font-weight: 400;
         line-height: 18.44px;
     }
+    .session6{
+        width: 100%;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
     .session6 h1{
-        width: 290px;
+        text-align: center;
         height: 65px;
-        left: 1px;
         padding-top: 10px;
         padding-bottom: 3px;
         font-weight: 600;
@@ -767,23 +838,22 @@ hr{
         line-height: 35.28px;
     }
     .session6 .explore{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
         padding-top: 1px;
         padding-bottom: 1px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .session6 .support{
         border: 1px solid transparent;
         box-shadow: 2px 18px 22px rgb(216, 214, 214);
         border-radius: 5px;
        margin-bottom: 40px;
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       justify-content: center;
-       width: 388px;
+       width: 100%;
+       max-width: 100%; 
+       text-align: center;
         height: 131px;
-       
     }
     .session6 .support h4{
         font-size: 24px;
@@ -798,6 +868,13 @@ hr{
     .support img {
         display: none;
     }
+    .session7{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .session7 h1{
         padding-bottom: 20px;
         font-weight: 600;
@@ -805,15 +882,20 @@ hr{
         line-height: 20.28px;
     }
     .session7 .recommend{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        /* display: grid;
+        grid-template-columns: repeat(1, 1fr); */
         padding-top: 20px;
         padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .session7 .commend{
         border: 2px solid #949EB0;
-        width: 388px;
+        width: 90%;
+        /* width: 388px; */
         height: 239px;
         top: 129px;
         border-radius: 5px;
@@ -851,80 +933,103 @@ hr{
     .session9{
         padding-top: 0px;
         padding-bottom: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .session9 .speak p{
         line-height: 23px;
         padding-top: 40px;
         padding-bottom: 20px;
+        text-align: center;
     
     }
     .session9 h2{
-        width: 230px;
         height: 65px;
         font-weight: 600;
         font-size: medium;
+        text-align: center;
         line-height: 35.28px;
         padding-top: 20px;
         padding-bottom: 5px;
     }
     .session9 .customers{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         margin-bottom: 40px;
         justify-content: space-evenly;
         padding-top: 30px;
         padding-bottom: 40px;
     }
+    .session9 .customers .speak:nth-child(2){
+        display: none;
+    }
+    .session9 .customers .speak:nth-child(3){
+        display: none;
+    }
     .session9 .customers .speak{
-        border: 1px solid rgb(248, 247, 244);
-        box-shadow: 4px 4px 4px rgb(199, 195, 195);
-        width: 388px;
+        border: 1px solid transparent;
+        box-shadow: -4px 2px 4px 1px rgb(236, 230, 230);
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
         text-align: justify;
-        height: 477px;
+        height: fit-content;
         border-radius: 16px;
         padding-top: 20px; 
         margin-bottom: 10px;
     }
     .session9 .customers .speak p {
         font-size: small;
-        width: 100%;
-        text-align: justify;
+        width: 90%;
+        text-align: center;
     }
-    .session9 .customers .speaky{
+    /* .session9 .customers .speaky{
         border: 1px solid transparent;
         box-shadow: 4px 4px 4px rgb(199, 195, 195);
-        width: 408px;
+         width: 408px;
         height: 492px;
         border-radius: 16px;
-        /* padding-left: 20px; */
-    }
-    .session9 .customers .speaker{
+
+    } */
+    /* .session9 .customers .speaker{
         border: 1px solid transparent;
         box-shadow: 4px 4px 4px rgb(199, 195, 195);
         width: 408px;
         height: 492px;
         border-radius: 16px;
         
-    }
+    } */
     .arrow{
         display: flex;
         flex-direction: row;
         padding-bottom: 40px;
-        align-items: flex-start;
-        /* justify-content: start; */
+        margin-right: 60%;
         margin-top: 0px;
     }
     .avatar{
         align-items: center;
         justify-content: center;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
     }
     .avatar p{
-        text-align: center;
+        padding-top: 0px;
         align-items: center;
         justify-content: center;
+    }
+    .kind{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 0px;
+        color: #949EB0;
+        
     }
     .change{
         flex-direction: column;
@@ -932,51 +1037,10 @@ hr{
   }
 
   @media (min-width: 641px) and (max-width: 768px) {
-    .session1{
-        display: flex;
-        flex-direction: column;
-        padding-top: 70px;
-    } 
-    .ph img{
-        width: 136px;
-        height: 214px;
-         
-     }
-     .phh img{
-         width: 136px;
-        height: 214px;
-     } 
-    .perfect h4{
-        width: 296px;
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 32.16px;
-        height: 2px;
-        padding-bottom: 85px;
-        text-transform: capitalize;  
-    }
-    .perfect p{
-        width: 290px;
-        font-size: 16px;
-        line-height: 21.25px;
-        font-weight: 300;
-        height: 62px;
-        left: 80px;
-        padding-top: 10px;
-        padding-bottom: 20px;
-    }
-
-    .brand{
-        display: grid;
-        grid-template-columns: 2, 2fr;
-        justify-content: space-evenly;
-        color: white;
-    }
-
     .session8{
         display: flex;
         flex-direction: column;
-        height: 611px;
+        height: fit-content;
     }
     .session8 .downloadApp h2{
         width: 212px;
@@ -1010,163 +1074,434 @@ hr{
     .iphone3 .phone1{
         padding-bottom: 90px;
     }
-   
+
+
+
+
+    .features{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box; 
+        max-width: 640px;
+       
+    }
+    .session1{
+        display: flex;
+        flex-direction: column;
+        padding-right: 0px;
+    } 
+    .iphone{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .ph img{
+       height: 214px;
+        
+    }
+    .phh img{
+       height: 214px;
+    }
+    .phh{
+        left: 80px;
+    } 
+    .perfect{
+        padding-top: 0%;
+    }
+    .perfect h4{
+        width: 325px;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 27.16px;
+        padding-bottom: 0px;
+        line-height: 43.52px;
+    }
+    .perfect p{
+        width: 329px;
+        font-size: 16px;
+        text-align: justify;
+        line-height: 24px;
+        font-weight: 400;
+        height: 62px;
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+    .btnGet{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .btnGet button{
+        width: 65%;
+        height: 62px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .change{
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .change button{
+        width: 65%;
+        height: 71px;
+    }
+
+    .brand{
+        display: grid;
+        grid-template-columns: 2, 2fr;
+        justify-content: space-evenly;
+        color: white;
+        font-size: small;
+    }
+    .session2{
+        padding-bottom: 32px;
+        font-size: small;
+    }
+
+    /* .session8{
+        display: flex;
+        flex-direction: column-reverse;
+        height: max-content;
+        
+    }
+    .session8 .downloadApp h2{
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 64px;
+    }
+    .session8 .downloadApp p{
+        width: 90%;
+        margin: auto;
+        height: 96px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+       
+    }
+    .session8 .store{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .apple{
+        width: 46%;
+        height: 78px;
+    }
+    .playPlay{
+        width: 46%;
+        height: 78px;
+    }
+    
+    .session8 .iphone3{
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    } */
+    /* .iphone3 .phone1{
+        height: 93%; 
+        display: flex;
+
+    }
+    .iphone3 .phone2{
+        display: none;
+    }  */
+    .session3{
+        flex-direction: column-reverse;
+        gap: 60px;
+        padding-top: 0px;
+    }
     .session3 img{
-        width: 220px;
+        width: 70%;
+        /* margin: auto; */
+        margin: auto;
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
     }
     .aboutTell h1{
-        font-size: 28px;
+        font-size: medium;
         font-weight: 600;
-        width: 153px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
         height: 65px;
         line-height: 55.28px;
+        width: 100%;
+       
     }
     .aboutTell p{
         font-weight: 400px;
-        font-size: 18px;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        /* display: flex; */
+        margin: auto;
+        font-size: small;
         line-height: 27px;
-        width: 290px;
-        padding-bottom: 90px;
+        max-width: 360px;
+        padding-bottom: 146px;
+        text-align: justify;
         
     }
-    .aboutTell button{
-        margin-top: 100px;
+    .aboutTell{
+        display: flex;
+        flex-direction: column;
     }
-
+    .aboutTell button{
+        margin-top: 0px;
+        font-size: small;
+        padding-top: 10px;
+        width: 30%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        height: 40px;
+        border-radius: 5px;
+    }
+    .aboutTell .btnLearn{
+        padding-top: 0px;
+        font-size: small;
+    }
     .session4 {
-        padding-top: 60px;
+        padding-top: 30px;
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .session4 h1{
+        /* width: 349px; */
+        font-size: 20px;
+        text-align: center;
+        font-weight: 600;
+        padding-bottom: 0px;
     }
     .session4 .realsteps{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
     }
-    .steps{
+    .session4 .steps{
         margin-bottom: 30px;
-        width: 250px;
-        height: 160px;
+        border-radius: 5px;
+        height: 227px;
+    }
+    .session4 h4{
+        height: 30px;
+        font-weight: 500;
+        font-size: medium;
+        line-height: 30.28px;
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+    .session4 p{
+        font-size: small;
+        text-align: justify;
     }
     .session5{
         display: flex;
         flex-direction: column;
-        padding-top: 30px;
+        width: 90%;
+        margin: auto;
+        padding-top: 10px;
         padding-bottom: 20px;
+        align-items: center;
+        justify-content: center;
     }
     .session5a h2{
-        width: 300.74px;
+        /* width: 252.74px; */
         padding-bottom: 0px;
-        height: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
         line-height: 45.28px;
-        font-size: 38px;
+        font-size: medium;
         top: 40px;
         font-weight: 600;    
     }
     .session5a p{
-        width: 200px;
-        height: 188px;
-        top: 230px;
-        padding-bottom: 80px;
+        height: 38px;
+        font-size: small;
+        top: 210px;
+        line-height: 30px;
+        text-align: center;
+        padding-bottom: 70px;
     }
     .session5b{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column;
+        /* grid-template-columns: repeat(1, 1fr); */
     }
     .session5b .secure{
         border: 1px solid transparent;
         border-radius: 5px;
         background: #FCB04B40;
-        width: 230px;
-        height: 170px;
-        margin-bottom: 50px;
-        margin-top: 50px;
+        width: 95%;
+        height: 227px;
+        margin-bottom: 10px;
+        margin-top: 10px;
         padding-top: 10px;
     }
     .session5b .secured{
         border: 1px solid transparent;
         background: #FCAE4940;
         border-radius: 5px;
-        width: 250px;
-        height: 170px;
-        margin-top: 50px;
-        margin-bottom: 50px;
+        width: 100%;
+        height: 227px;
+        margin-top: 10px;
+        margin-bottom: 10px;
         padding-top: 10px;
     }
     .session5b .securer{
         border: 1px solid transparent;
         border-radius: 5px;
         background: #0075FF40;
-        width: 250px;
-        height: 170px;
+        width: 100%;
+        height: 227px;
         padding-top: 10px;
         margin-top: 50px;
-        margin-bottom: 50px;
+        margin-bottom: 10px;
     }
     .session5b h2{
         line-height: 30.6px;
-        width: 276.85px;
-        font-size: 22.15px;
+        width: 90%;
+        font-size: medium;
         font-weight: 600;
+        margin: auto;
+        padding-top: 20px;
+        
     }
 
     .session5b p{
-        width: 212px;
+        margin: auto;
+        width: 90%;
+        text-align: justify;
         padding-top: 10px;
         padding-bottom: 10px;
-        font-size: 14.77px;
+        font-size: small;
         font-weight: 400;
         line-height: 18.44px;
     }
+    .session6{
+        width: 100%;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
     .session6 h1{
-        width: 290px;
+        text-align: center;
         height: 65px;
-        left: 1px;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 10px;
+        padding-bottom: 3px;
         font-weight: 600;
-        font-size: 28px;
-        line-height: 45.28px;
-        font-family: -apple-, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: medium;
+        line-height: 35.28px;
     }
     .session6 .explore{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        padding: 18px;
+        /* display: grid;
+        grid-template-columns: repeat(1, 1fr); */
+        padding-top: 1px;
+        padding-bottom: 1px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .session6 .support{
+        border: 1px solid transparent;
+        box-shadow: 2px 18px 22px rgb(216, 214, 214);
+        border-radius: 5px;
+       margin-bottom: 40px;
+       width: 100%;
+       max-width: 100%;
+       text-align: center;
+        height: 131px;
+    }
+    .session6 .support h4{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .session6 .support p{
+        line-height: 39px;
+        font-size: small;
+        font-weight: 400;
+    
+    }
+    .support img {
+        display: none;
+    }
+    .session7{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .session7 h1{
-        padding: 0px 20px 20px 40px;
+        padding-bottom: 20px;
         font-weight: 600;
-        font-size: 28px;
-        line-height: 45.28px;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: medium;
+        line-height: 20.28px;
     }
     .session7 .recommend{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        padding: 20px 20px 20px 0px;
+        /* display: grid;
+        grid-template-columns: repeat(1, 1fr); */
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .session7 .commend{
         border: 2px solid #949EB0;
-        width: 270px;
-        height: 244px;
+        width: 90%;
+        /* width: 388px; */
+        height: 239px;
         top: 129px;
         border-radius: 5px;
-        margin-left: 40px;
         margin-bottom: 40px;
     }
     .recommend .plum .ville p{
         color: #130F26;
         font-weight: 400;
         line-height: 23.44px;
-        font-size: 18px;
+        font-size: small;
     
     }
     .recommend h4{
         font-weight: 700;
-        font-size: 18px;
+        font-size: medium;
         line-height: 21.35px;
     }
     .commend h4{
-        padding: 1px 20px 1px 20px;
+        padding-top: 1px;
+        padding-bottom: 1px;
         font-weight: 700;
         font-size: 18px;
         line-height: 21.25px;
@@ -1174,131 +1509,120 @@ hr{
     
     }
     .commend p{
-        padding: 5px 20px 5px 20px;
-        line-height: 22px;
+        padding-bottom: 5px;
+        line-height: 20px;
         font-weight: 400;
-        font-size: 12px;
+        font-size: small;
+        text-align: justify;
         color: #383838;
+    }
+    .session9{
+        padding-top: 0px;
+        padding-bottom: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .session9 .speak p{
+        line-height: 23px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        text-align: center;
     
     }
-
-    .session9{
-        padding-top: 569px;
-        padding-bottom: 20px;
-    }
-   
-
     .session9 h2{
-        width: 350px;
         height: 65px;
         font-weight: 600;
-        font-size: 28px;
-        line-height: 45.28px;
-        padding: 35px 35px 35px 40px;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: medium;
+        text-align: center;
+        line-height: 35.28px;
+        padding-top: 20px;
+        padding-bottom: 5px;
     }
     .session9 .customers{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        margin-bottom: 40px;
         justify-content: space-evenly;
-        padding: 30px 40px 40px 40px;
-        /* padding: 40px; */
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .session9 .customers .speak:nth-child(2){
+        display: none;
+    }
+    .session9 .customers .speak:nth-child(3){
+        display: none;
     }
     .session9 .customers .speak{
         border: 1px solid transparent;
-        box-shadow: 4px 4px 4px rgb(199, 195, 195);
-        width: 388px;
-        height: 452px;
+        box-shadow: -4px 2px 4px 1px rgb(236, 230, 230);
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        height: fit-content;
         border-radius: 16px;
-        padding: 20px 20px 20px 20px; 
+        padding-top: 20px; 
+        margin-bottom: 10px;
     }
-    .session9 .customers .speaky{
+    .session9 .customers .speak p {
+        font-size: small;
+        width: 90%;
+        text-align: center;
+    }
+    /* .session9 .customers .speaky{
+        border: 1px solid transparent;
+        box-shadow: 4px 4px 4px rgb(199, 195, 195);
+         width: 408px;
+        height: 492px;
+        border-radius: 16px;
+
+    } */
+    /* .session9 .customers .speaker{
         border: 1px solid transparent;
         box-shadow: 4px 4px 4px rgb(199, 195, 195);
         width: 408px;
         height: 492px;
         border-radius: 16px;
-        /* padding-left: 20px; */
-    }
-    .session9 .customers .speaker{
-        border: 1px solid transparent;
-        box-shadow: 4px 4px 4px rgb(199, 195, 195);
-        width: 408px;
-        height: 492px;
-        border-radius: 16px;
-        padding-left: 20px; 
-        margin-left: 20px;
-    }
+        
+    } */
     .arrow{
         display: flex;
         flex-direction: row;
-        padding-left: 70px;
         padding-bottom: 40px;
+        margin-right: 60%;
+        margin-top: 0px;
     }
-    .arrow .back{
-        padding-left: 24px;
+    .avatar{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
     }
-  }
-  
-
-
-
-  
-  @media (min-width: 769px) and (max-width: 1024px) {
-    .session1{
+    .avatar p{
+        padding-top: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+    .kind{
         display: flex;
         flex-direction: column;
-    } 
-    .perfect h4{
-        width: 496px;
-        font-size: 30px;
-        font-weight: 700;
-        line-height: 46.16px;
-        height: 152px;
-        padding: 0 100px 125px 0px;
-        text-transform: capitalize;
+        text-align: center;
+        gap: 0px;
+        color: #949EB0;
+        
     }
-    .ph img{
-        width: 136px;
-        height: 214px;
-         
-     }
-     .phh img{
-         width: 136px;
-        height: 214px;
-     } 
-    .perfect p{
-        width: 490px;
-        font-size: 16px;
-        line-height: 21.25px;
-        font-weight: 300;
-        height: 62px;
-        left: 80px;
-        padding-top: 10px;
-        padding-bottom: 20px;
+    .change{
+        flex-direction: column;
     }
-
-    .iphone1{
-        width: 195.03px;
-        height: 531.69px;
-        top: 2.03px;
-        padding-left: 1.2px;
-    }
-    .iphone2{
-        width: 182.27px;
-        height: 522.34px;
-        top: 2.03;
-        left: 2.03;
-        padding-top: 50px;
-    }
-
-    .brand{
-        display: grid;
-        grid-template-columns: 4, 2fr;
-        justify-content: space-evenly;
-        color: white;
-    }
-
+  
+}
+  @media (min-width: 769px) and (max-width: 1024px) {
     .session8{
         display: flex;
         flex-direction: column;
@@ -1336,144 +1660,422 @@ hr{
     .iphone3 .phone1{
         padding-bottom: 90px;
     }
+    .features{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box; 
+        max-width: 640px;
+       
+    }
+    .session1{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding-right: 0px;
+    } 
+    .iphone{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .ph img{
+       height: 214px;
+        
+    }
+    .phh img{
+       height: 214px;
+    }
+    .phh{
+        left: 80px;
+    } 
+    .perfect{
+        padding-top: 0%;
+    }
+    .perfect h4{
+        width: 325px;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 27.16px;
+        padding-bottom: 0px;
+        line-height: 43.52px;
+    }
+    .perfect p{
+        width: 329px;
+        font-size: 16px;
+        text-align: justify;
+        line-height: 24px;
+        font-weight: 400;
+        height: 62px;
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+    .btnGet{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .btnGet button{
+        width: 65%;
+        height: 62px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .change{
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .change button{
+        width: 65%;
+        height: 71px;
+    }
+
+    .brand{
+        display: grid;
+        grid-template-columns: 2, 2fr;
+        justify-content: space-evenly;
+        color: white;
+        font-size: small;
+    }
+    .session2{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 32px;
+        font-size: small;
+    }
+
+    /* .session8{
+        display: flex;
+        flex-direction: column-reverse;
+        height: max-content;
+        
+    }
+    .session8 .downloadApp h2{
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 64px;
+    }
+    .session8 .downloadApp p{
+        width: 90%;
+        margin: auto;
+        height: 96px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+       
+    }
+    .session8 .store{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .apple{
+        width: 46%;
+        height: 78px;
+    }
+    .playPlay{
+        width: 46%;
+        height: 78px;
+    }
+    
+    .session8 .iphone3{
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    .iphone3 .phone1{
+        /* width: 202.33px; */
+        /* height: 93%;  */
+        /* display: flex; */
+
+    /* }
+    .iphone3 .phone2{
+        display: none;
+    }  */
+    .session3{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        padding-top: 0px;
+    }
     .session3 img{
-        width: 22px;
+        width: 70%;
+        /* margin: auto; */
+        margin: auto;
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
     }
     .aboutTell h1{
-        font-size: 28px;
+        font-size: medium;
         font-weight: 600;
-        width: 353px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
         height: 65px;
         line-height: 55.28px;
+        width: 100%;
+       
     }
     .aboutTell p{
         font-weight: 400px;
-        font-size: 18px;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        /* display: flex; */
+        margin: auto;
+        font-size: small;
         line-height: 27px;
-        width: 590px;
-        padding-bottom: 0px;
+        max-width: 360px;
+        padding-bottom: 146px;
+        text-align: justify;
         
     }
+    .aboutTell{
+        display: flex;
+        flex-direction: column;
+    }
     .aboutTell button{
-        margin-top: 10px;
+        margin-top: 0px;
+        font-size: small;
+        padding-top: 10px;
+        width: 30%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        height: 40px;
+        border-radius: 5px;
     }
-
+    .aboutTell .btnLearn{
+        padding-top: 0px;
+        font-size: small;
+    }
     .session4 {
+        justify-content: center;
+        align-items: center;
         padding-top: 30px;
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        
     }
-   
+    .session4 h1{
+        /* width: 349px; */
+        font-size: 20px;
+        text-align: center;
+        font-weight: 600;
+        padding-bottom: 0px;
+    }
     .session4 .realsteps{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
     }
-    .steps{
+    .session4 .steps{
         margin-bottom: 30px;
-        width: 300px;
-        height: 170px;
+        border-radius: 5px;
+        height: 227px;
     }
-
+    .session4 h4{
+        height: 30px;
+        font-weight: 500;
+        font-size: medium;
+        line-height: 30.28px;
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+    .session4 p{
+        font-size: small;
+        text-align: justify;
+    }
     .session5{
         display: flex;
         flex-direction: column;
-        padding-top: 30px;
+        width: 90%;
+        margin: auto;
+        padding-top: 10px;
         padding-bottom: 20px;
+        align-items: center;
+        justify-content: center;
     }
     .session5a h2{
-        width: 500.74px;
+        /* width: 252.74px; */
         padding-bottom: 0px;
-        height: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
         line-height: 45.28px;
-        font-size: 38px;
+        font-size: medium;
         top: 40px;
         font-weight: 600;    
     }
     .session5a p{
-        width: 550px;
-        height: 188px;
-        top: 230px;
-        padding-bottom: 80px;
+        height: 38px;
+        font-size: small;
+        top: 210px;
+        line-height: 30px;
+        text-align: center;
+        padding-bottom: 70px;
     }
     .session5b{
-        padding-top: 10px;
-        padding-bottom: 10px;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column;
+        /* grid-template-columns: repeat(1, 1fr); */
     }
     .session5b .secure{
         border: 1px solid transparent;
         border-radius: 5px;
         background: #FCB04B40;
-        width: 250px;
-        height: 170px;
-        margin-bottom: 30px;
-        margin-top: 50px;
+        width: 95%;
+        height: 227px;
+        margin-bottom: 10px;
+        margin-top: 10px;
         padding-top: 10px;
     }
     .session5b .secured{
         border: 1px solid transparent;
         background: #FCAE4940;
         border-radius: 5px;
-        width: 250px;
-        height: 170px;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        width: 100%;
+        height: 227px;
+        margin-top: 10px;
+        margin-bottom: 10px;
         padding-top: 10px;
     }
     .session5b .securer{
         border: 1px solid transparent;
         border-radius: 5px;
         background: #0075FF40;
-        width: 250px;
-        height: 170px;
+        width: 100%;
+        height: 227px;
         padding-top: 10px;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 50px;
+        margin-bottom: 10px;
     }
     .session5b h2{
         line-height: 30.6px;
-        width: 276.85px;
-        font-size: 22.15px;
+        width: 90%;
+        font-size: medium;
         font-weight: 600;
+        margin: auto;
+        padding-top: 20px;
+        
     }
 
     .session5b p{
-        width: 212px;
+        margin: auto;
+        width: 90%;
+        text-align: justify;
         padding-top: 10px;
         padding-bottom: 10px;
-        font-size: 14.77px;
+        font-size: small;
         font-weight: 400;
         line-height: 18.44px;
     }
+    .session6{
+        width: 100%;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
     .session6 h1{
-        width: 390px;
-        height: 10px;
+        text-align: center;
+        height: 65px;
+        padding-top: 10px;
+        padding-bottom: 3px;
         font-weight: 600;
-        font-size: 28px;
-        line-height: 45.28px;
+        font-size: medium;
+        line-height: 35.28px;
     }
     .session6 .explore{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        padding-top: 58px;
-        padding-bottom: 58px;
+        /* display: grid;
+        grid-template-columns: repeat(1, 1fr); */
+        padding-top: 1px;
+        padding-bottom: 1px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .session6 .support{
+        border: 1px solid transparent;
+        box-shadow: 2px 18px 22px rgb(216, 214, 214);
+        border-radius: 5px;
+       margin-bottom: 40px;
+       width: 100%;
+       /* max-width: 100%; */
+       text-align: center;
+        height: 131px;
+    }
+    .session6 .support h4{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .session6 .support p{
+        line-height: 39px;
+        font-size: small;
+        font-weight: 400;
+    
+    }
+    .support img {
+        display: none;
+    }
+    .session7{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .session7 h1{
         padding-bottom: 20px;
         font-weight: 600;
-        font-size: 28px;
-        line-height: 45.28px;
+        font-size: medium;
+        line-height: 20.28px;
     }
     .session7 .recommend{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        /* display: grid;
+        grid-template-columns: repeat(1, 1fr); */
         padding-top: 20px;
         padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .session7 .commend{
         border: 2px solid #949EB0;
-        width: 270px;
-        height: 244px;
+        width: 90%;
+        /* width: 388px; */
+        height: 239px;
         top: 129px;
         border-radius: 5px;
         margin-bottom: 40px;
@@ -1482,16 +2084,17 @@ hr{
         color: #130F26;
         font-weight: 400;
         line-height: 23.44px;
-        font-size: 18px;
+        font-size: small;
     
     }
     .recommend h4{
         font-weight: 700;
-        font-size: 18px;
+        font-size: medium;
         line-height: 21.35px;
     }
     .commend h4{
-        padding: 1px 20px 1px 20px;
+        padding-top: 1px;
+        padding-bottom: 1px;
         font-weight: 700;
         font-size: 18px;
         line-height: 21.25px;
@@ -1499,69 +2102,117 @@ hr{
     
     }
     .commend p{
-        padding-top: 5px;
         padding-bottom: 5px;
-        line-height: 22px;
+        line-height: 20px;
         font-weight: 400;
-        font-size: 12px;
-        color: #050202;
+        font-size: small;
+        text-align: justify;
+        color: #383838;
     }
-
     .session9{
-        padding-top: 9px;
+        padding-top: 0px;
         padding-bottom: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .session9 .speak p{
-        line-height: 20px;
-        padding-top: 30px;
+        line-height: 23px;
+        padding-top: 40px;
         padding-bottom: 20px;
-        color: #949EB0;
+        text-align: center;
     
     }
     .session9 h2{
-        width: 400px;
         height: 65px;
         font-weight: 600;
-        font-size: 28px;
-        line-height: 45.28px;
-        padding-top: 35px;
-        padding-bottom: 35px;
+        font-size: medium;
+        text-align: center;
+        line-height: 35.28px;
+        padding-top: 20px;
+        padding-bottom: 5px;
     }
     .session9 .customers{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        margin-bottom: 40px;
         justify-content: space-evenly;
         padding-top: 30px;
         padding-bottom: 40px;
-       
+    }
+    .session9 .customers .speak:nth-child(2){
+        display: none;
+    }
+    .session9 .customers .speak:nth-child(3){
+        display: none;
     }
     .session9 .customers .speak{
         border: 1px solid transparent;
-        box-shadow: 4px 4px 4px rgb(199, 195, 195);
-        width: 388px;
-        height: 452px;
-        margin-bottom: 50px;
+        box-shadow: -4px 2px 4px 1px rgb(236, 230, 230);
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        height: fit-content;
         border-radius: 16px;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 20px; 
+        margin-bottom: 10px;
     }
-    .session9 .customers .speaky{
+    .session9 .customers .speak p {
+        font-size: small;
+        width: 90%;
+        text-align: center;
+    }
+    /* .session9 .customers .speaky{
+        border: 1px solid transparent;
+        box-shadow: 4px 4px 4px rgb(199, 195, 195);
+         width: 408px;
+        height: 492px;
+        border-radius: 16px;
+
+    } */
+    /* .session9 .customers .speaker{
         border: 1px solid transparent;
         box-shadow: 4px 4px 4px rgb(199, 195, 195);
         width: 408px;
         height: 492px;
         border-radius: 16px;
-    }
-    .session9 .customers .speaker{
-        border: 1px solid transparent;
-        box-shadow: 4px 4px 4px rgb(199, 195, 195);
-        width: 408px;
-        height: 492px;
-        border-radius: 16px;
-    }
+        
+    } */
     .arrow{
         display: flex;
         flex-direction: row;
         padding-bottom: 40px;
+        margin-right: 60%;
+        margin-top: 0px;
+    }
+    .avatar{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    .avatar p{
+        padding-top: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+    .kind{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 0px;
+        color: #949EB0;
+        
+    }
+    .change{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
   }
