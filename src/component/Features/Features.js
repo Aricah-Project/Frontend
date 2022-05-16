@@ -341,7 +341,7 @@ function Features() {
                 <div className={styles.customers}>
                     <div className={styles.speak}>
                         {/* <img src={speak} alt='speak' className={styles.speaker} /> */}
-                        <p>As a child, I always dreamed
+                        <p className={styles.child}>As a child, I always dreamed
                              of studying in Canada, and you
                               helped me accomplish this dream.
                                I was still able to get assistance
@@ -349,13 +349,15 @@ function Features() {
                                  be recommended to Ali.</p><br></br><hr></hr><br></br>
                                  <div className = {styles.divider}></div>
                         <div className= {styles.avatar}>
-                            <img src={Avatar} alt='man' />
-                            <p>Femi Kuti</p>
+                            <img className={styles.avat} src={Avatar} alt='man' />
+                            <div className={styles.kind}>
+                                <p>Femi Kind</p>
+                            <p>Student</p></div>
                         </div>
                     </div >
                     <div className={styles.speak}>
                         {/* <img src={speak} alt='speak' className={styles.speaker}/> */}
-                        <p>As a child, I always dreamed
+                        <p className={styles.child}>As a child, I always dreamed
                              of studying in Canada, and you
                               helped me accomplish this dream.
                                I was still able to get assistance
@@ -363,13 +365,15 @@ function Features() {
                                  be recommended to Ali.</p><br></br><hr></hr><br></br>
                         <div className = {styles.divider}></div>
                         <div className= {styles.avatar}>
-                            <img src={Avatar} alt='man' />
-                            <p>Femi Kuti</p>
+                            <img className={styles.avat} src={Avatar} alt='man' />
+                            <div className={styles.kind}>
+                                <p>Femi Kind</p>
+                            <p>Student</p></div>
                         </div>
                     </div >
                     <div className={styles.speak}>
                         {/* <img src={speak} alt='speak' className={styles.speaker}/> */}
-                        <p>As a child, I always dreamed
+                        <p className={styles.child}>As a child, I always dreamed
                              of studying in Canada, and you
                               helped me accomplish this dream.
                                I was still able to get assistance
@@ -377,8 +381,9 @@ function Features() {
                                  be recommended to Ali.</p><br></br><hr></hr><br></br>
                                  <div className = {styles.divider}></div>
                         <div className= {styles.avatar}>
-                            <img src={Avatar} alt='man' />
-                            <div className={styles.kind}><p>Femi Kind</p>
+                            <img className={styles.avat} src={Avatar} alt='man' />
+                            <div className={styles.kind}>
+                                <p>Femi Kind</p>
                             <p>Student</p></div>
                         </div>
                     </div >

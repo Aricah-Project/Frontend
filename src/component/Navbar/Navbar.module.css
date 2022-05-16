@@ -82,7 +82,7 @@
 @media (min-width: 220px) and (max-width: 640px) {
     .row{
         justify-content: center;
-         gap: 145px;
+         gap: 200px;
     }
     ul{
         list-style: none;
@@ -137,7 +137,7 @@
     }
     .row{
         justify-content: center;
-         gap: 145px;
+         gap: 155px;
     }
    
     .ham{

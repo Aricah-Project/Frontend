@@ -47,16 +47,16 @@
 
   @media (min-width: 220px) and (max-width: 640px) {
     .footer .place{
-        display: grid;
-        grid-template-columns: repeat(1, minmax(0, 1fr));
-        padding: 40px 30px 90px 30px;
-
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* text-align: center; */
     }
     .footer .place .menu{
-        width: 382px;
+        width: 80%;
         height: 102px;
         border-radius: 5px;
-        padding: 20px;
         padding-top: 0;
         padding-bottom: 20px; 
     }
@@ -76,17 +76,19 @@
   }
 
   @media (min-width: 641px) and (max-width: 768px) {
-      .footer .place{
-          display: grid;
-          grid-template-columns: repeat(1, minmax(0, 1fr));
-      }
-      .footer .place .menu{
-        width: 382px;
+    .footer .place{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* text-align: center; */
+    }
+    .footer .place .menu{
+        width: 80%;
         height: 102px;
         border-radius: 5px;
-        padding: 20px;
         padding-top: 0;
-        padding-bottom: 60px; 
+        padding-bottom: 20px; 
     }
     .footer .place .menu p{
         line-height: 15px;
@@ -101,17 +103,19 @@
   }
 
   @media (min-width: 769px) and (max-width: 1024px) {
-      .footer .place{
-          display: grid;
-          grid-template-columns: repeat(1, minmax(0, 1fr));
-      } 
-      .footer .place .menu{
-        width: 382px;
+    .footer .place{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* text-align: center; */
+    }
+    .footer .place .menu{
+        width: 80%;
         height: 102px;
         border-radius: 5px;
-        padding: 20px;
         padding-top: 0;
-        padding-bottom: 60px; 
+        padding-bottom: 20px; 
     }
     .footer .place .menu p{
         line-height: 25px;
