@@ -11,13 +11,13 @@ import ph1 from '../Asset/X - 2.png'
 import ph2 from '../Asset/X - 3.png'
 import phoneX1 from '../Asset/PhoneX1.png'
 import phoneX2 from '../Asset/PhoneX2.png'
-import Apple from '../Asset/blackApple.png'
-import Play from '../Asset/blackPlay.png'
 import DP from '../Asset/DP.png'
 import frontarrow from '../Asset/Frontarrow.png'
 import backarrow from '../Asset/Back arrow.png'
-// import apple from '../Asset/Apple.png'
-import player from '../Asset/player.png'
+import player from '../Asset/playStore.png'
+import AppleRight from '../Asset/AppleRight.png'
+import AppleWhite from '../Asset/AppleWhite.png'
+
 
 
 function Features() {
@@ -33,17 +33,25 @@ function Features() {
                     <div className={styles.btnGet}>
                         <button>Create Free Account</button>
                     </div>
-                    <div className={styles.change}>
-                    {/* <button>
-                        <img src={apple} alt='apple' />
-                        <div className={styles.names}>Download on
-                              AppStore</div>
-                    </button> */}
-                    <button>
-                        <img src={player} alt='player' />
-                        <div className={styles.names}>Download on
-                             PlayStore</div>
+                    <div className={styles.storey}>
+                    <button className={styles.playersRight}>
+                        <div className={styles.playerRight}>
+                            <img src={AppleRight} alt='Apple'  />
+                        </div>
+                        <div className={styles.downFlexRight}>
+                            Download on<span><br></br>AppStore</span> 
+                        </div>
                     </button>
+                    <button className={styles.playersRight}>
+                        <div className={styles.playerRight}>
+                            <img src={player} alt='player'  />
+                        </div>
+                        <div className={styles.downFlexRight}>
+                            Download on<span><br></br>PlayStore</span> 
+                        </div>
+                    </button>
+                 </div>
+                    <div className={styles.change}>
                 </div>
                 </div>
                 <div className={styles.iphone}>
@@ -326,8 +334,22 @@ function Features() {
         Aenean massa. Cum sociis natoque 
         penatibus et magnis dis parturien</p>
     <div className={styles.store}>
-        <img src={Apple} alt='Apple' className={styles.apple} />
-        <img src={Play} alt='Play' className={styles.playPlay} />
+                    <button className={styles.players}>
+                        <div className={styles.player}>
+                            <img src={AppleWhite} alt='Apple'  />
+                        </div>
+                        <div className={styles.downFlex}>
+                            Download on<span><br></br>AppStore</span> 
+                        </div>
+                    </button>
+                    <button className={styles.players}>
+                        <div className={styles.player}>
+                            <img src={player} alt='player'  />
+                        </div>
+                        <div className={styles.downFlex}>
+                            Download on<span><br></br>PlayStore</span> 
+                        </div>
+                    </button>
     </div>
  </div>
  <div className={styles.iphone3}>

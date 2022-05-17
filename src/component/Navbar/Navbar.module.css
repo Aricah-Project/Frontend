@@ -82,7 +82,7 @@
 @media (min-width: 220px) and (max-width: 640px) {
     .row{
         justify-content: center;
-         gap: 200px;
+         gap: 225px;
     }
     ul{
         list-style: none;
