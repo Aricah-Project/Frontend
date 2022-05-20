@@ -82,7 +82,8 @@
 @media (min-width: 220px) and (max-width: 640px) {
     .row{
         justify-content: center;
-         gap: 225px;
+        gap: 60%;
+        width: 100%;
     }
     ul{
         list-style: none;
@@ -137,7 +138,8 @@
     }
     .row{
         justify-content: center;
-         gap: 155px;
+         gap: 70%;
+         width: 100%;
     }
    
     .ham{
@@ -180,22 +182,54 @@
 
 @media (min-width: 769px) and (max-width: 1024px) {
     
-    .row{  
-        padding: 15px 18px 15px 18px;
-        flex-direction: column;
+    .hamburger{
+        display: block;
+        padding-top: 10px;
     }
+    ul{
+        list-style: none;
+    }
+    .row{
+        justify-content: center;
+         gap: 70%;
+         width: 100%;
+    }
+   
     .ham{
+        display: none;
         padding-left: 0px;
     }
+    
+    .in{
+        height: 20px;
+        width: 90px;
+        font-size: larger;
+        border-radius: 5px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        margin-left: 5px;
+        padding-left: 18px;
+    }
+    .out{
+        width: 190px;
+        height: 40px;
+        border-radius: 5px;
+        margin-left: 10px;
+        padding-top: 15px;
+        font-size: larger;
+        padding-left: 28px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+    }
     .guide{
+        display: none;
         text-decoration: none;
         color: #000;
-        padding-left: 25px;
+        padding-left: 18px;
         font-size: 16px;
         font-weight: 500;
         font-family: sans-serif;
     }
-    .hamburger{
-        display: none;
-    }
 }
+
