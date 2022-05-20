@@ -6,19 +6,23 @@ import location from '../Asset/Location.png'
 import message from '../Asset/Message.png'
 import call from '../Asset/Call.png'
 import framework from '../Asset/Frame 29.png'
-import iphone1 from '../Asset/iphone1.png'
-import iphone2 from '../Asset/iphone2.png'
-import Apple from '../Asset/blackApple.png'
-import Play from '../Asset/blackPlay.png'
+import phoneX1 from '../Asset/PhoneX1.png'
+import phoneX2 from '../Asset/PhoneX2.png'
+import AppleWhite from '../Asset/AppleWhite.png'
+import player from '../Asset/playStore.png'
+
+
 
 function ContactUs () {
     return (
-        <div>
+        <div className={styles.mus}>
+            <div>
             <div className={styles.us}>
                 <div className={styles.contact}>
                     <img src={connect} alt="contact" className={styles.contacts} />
                 </div>
-                <div className={styles.help}><p className={styles.con}>Contact us</p>
+                <div className={styles.help}>
+                <p className={styles.con}>Contact us</p>
                 <p className={styles.you}>Let us guide you and match-make you to the mentors,
                      tutors and excellent materials</p></div>
                 <h4 className={styles.intouch}>Get in Touch</h4>
@@ -50,25 +54,42 @@ function ContactUs () {
                     <div className={styles.message}>Type a message</div>
                     <div className={styles.send}>Send a message</div></div>
                 </div>
-                <div className={styles.session8}>
-                <div className={styles.downloadApp}>
-                    <h2>Download our App!</h2>
-                    <p>Lorem ipsum dolor sit amet, 
-                        consectetuer adipiscing elit.
-                         Aenean commodo ligula eget dolor. 
-                        Aenean massa. Cum sociis natoque 
-                        penatibus et magnis dis parturien</p>
-                    <div className={styles.store}>
-                        <img src={Apple} alt='Apple' className={styles.apple} />
-                        <img src={Play} alt='Play' className={styles.playPlay} />
-                    </div>
-                </div>
-                <div className={styles.iphone3}>
-                    <img src={iphone1} alt='phone'  className={styles.phone1}/>
-                    <img src={iphone2} alt='phone' className={styles.phone2} />
-                </div>
-             </div>
+               
             </div>
+            </div>
+            <div className={styles.session8}>
+     <div className={styles.downloadApp}>
+    <h2>Download our App!</h2>
+    <p>Lorem ipsum dolor sit amet, 
+        consectetuer adipiscing elit.
+         Aenean commodo ligula eget dolor. 
+        Aenean massa. Cum sociis natoque 
+        penatibus et magnis dis parturien</p>
+    <div className={styles.store}>
+                    <button className={styles.players}>
+                        <div className={styles.player}>
+                            <img src={AppleWhite} alt='Apple'  />
+                        </div>
+                        <div className={styles.downFlex}>
+                            Download on<span><br></br>AppStore</span> 
+                        </div>
+                    </button>
+                    <button className={styles.players}>
+                        <div className={styles.player}>
+                            <img src={player} alt='player'  />
+                        </div>
+                        <div className={styles.downFlex}>
+                            Download on<span><br></br>PlayStore</span> 
+                        </div>
+                    </button>
+    </div>
+ </div>
+ <div className={styles.iphone3}>
+    <img src={phoneX1} alt='phone'  className={styles.phone1}/>
+    <img src={phoneX2} alt='phone' className={styles.phone2} />
+  </div>
+  </div>
+
         </div>
     )
 }
