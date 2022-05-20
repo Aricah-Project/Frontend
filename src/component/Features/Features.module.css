@@ -562,111 +562,6 @@ hr{
 
 @media (min-width: 220px) and (max-width: 640px) {
 
-    .features{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        box-sizing: border-box; 
-        max-width: 640px;
-       
-    }
-    .session1{
-        display: flex;
-        flex-direction: column;
-        padding-right: 0px;
-        padding-bottom: 0px;
-    } 
-    .iphone{
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-    }
-    .ph img{
-       height: 214px;
-       width: 100%;
-        
-    }
-    .phh img{
-       height: 214px;
-       width: 100%;
-    }
-    .phh{
-        left: 80px;
-    } 
-    .perfect{
-        padding-top: 0%;
-        width: 100%;
-        max-width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .perfect h4{
-        width: 90%;
-        font-size: 32px;
-        font-weight: 700;
-        padding-bottom: 0px;
-        line-height: 43.52px;
-    }
-    .perfect p{
-        width: 90%; 
-        font-size: 16px;
-        text-align: justify;
-        line-height: 24px;
-        font-weight: 400;
-        height: 62px;
-        padding-top: 10px;
-        padding-bottom: 40px;
-    }
-    .btnGet{
-        padding-top: 10px;
-        padding-bottom: 10px;
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        width: 60%;
-        font-size: 10px;
-    }
-    .btnGet button{
-        width: 100%;
-        height: 62px;
-        font-size: 16px;
-        font-weight: 500;
-    }
-    .change{
-        flex-direction: column;
-        align-items: center;
-        display: flex;
-        justify-content: center;
-    }
-    .change button{
-        width: 65%;
-        height: 71px;
-    }
-
-    .brand{
-        display: grid;
-        grid-template-columns: 2, 2fr;
-        justify-content: space-evenly;
-        color: white;
-        font-size: small;
-    }
-    .session2{
-        padding-bottom: 32px;
-        padding-top: 0px;
-        font-size: small;
-    }
-    hr{
-        background: #949EB0;
-        border: 1px solid #949EB0;
-        width: 100%;
-    
-    }
-
     .session8{
         display: flex;
         flex-direction: column-reverse;
@@ -733,9 +628,10 @@ hr{
         flex-direction: column;
        justify-content: center;
        align-items: center;
+       margin-top: -150px;
+      
     }
     .iphone3 .phone1{
-        /* width: 202.33px; */
         height: 93%; 
         display: flex;
 
@@ -743,27 +639,132 @@ hr{
     .iphone3 .phone2{
         display: none;
     } 
+
+    .features{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box; 
+       
+    }
+    .session1{
+        display: flex;
+        flex-direction: column;
+        padding-right: 0px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    } 
+    .iphone{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .ph img{
+       height: 80%;
+       width: 80%;
+    }
+    .phh img{
+       height: 80%;
+       width: 80%;
+    }
+    .phh{
+        left: 80px;
+    } 
+    .perfect{
+        padding-top: 0%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .perfect h4{
+        width: 90%;
+        margin: auto;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 27.16px;
+        padding-bottom: 0px;
+    }
+    .perfect p{
+        width: 95%;
+        display: flex;
+        font-size: 16px;
+        align-items: center;
+        justify-content: center;
+        text-align: center; 
+        line-height: 24px;
+        font-weight: 400;
+        height: 62px;
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+    .btnGet{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .btnGet button{
+        width: 60%;
+        height: 62px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .playersRight{
+        width: 50%;
+    }
+    .storey{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .change{
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .change button{
+        width: 65%;
+        height: 71px;
+    }
+
+    .brand{
+        display: grid;
+        grid-template-columns: 2, 2fr;
+        justify-content: space-evenly;
+        color: white;
+        font-size: medium;
+    }
     .session3{
         flex-direction: column-reverse;
         gap: 60px;
         padding-top: 0px;
+        width: 100%;
     }
     .session3 img{
-        width: 85%;
-        /* margin: auto; */
+        width: 90%;
         margin: auto;
         display: flex;
-        /* align-items: center; */
         justify-content: center;
     }
     .aboutTell h1{
-        font-size: medium;
-        font-weight: 600;
+        font-size: larger;
+        font-weight: 700;
         align-items: center;
         justify-content: center;
         display: flex;
-        height: 65px;
-        line-height: 55.28px;
+        height: 5px;
+        line-height: 5.28px;
         width: 100%;
        
     }
@@ -772,39 +773,47 @@ hr{
         width: 90%;
         align-items: center;
         justify-content: center;
-        /* display: flex; */
+         display: flex;
         margin: auto;
         font-size: small;
         line-height: 27px;
-        max-width: 360px;
-        padding-bottom: 146px;
+        padding-bottom: 16px;
         text-align: justify;
         
     }
     .aboutTell{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
     }
     .aboutTell button{
         margin-top: 0px;
         font-size: small;
-        padding-top: 10px;
-        width: 30%;
+        width: 300%;
         margin: auto;
         display: flex;
+        align-items: center;
         justify-content: center;
-        height: 40px;
+        height: 50px;
         border-radius: 5px;
     }
     .aboutTell .btnLearn{
         padding-top: 0px;
         font-size: small;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
     }
     .session4 {
-        padding-top: 60px;
-        width: 75%;
+        padding-top: 30px;
+        width: 100%;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         
     }
     .session4 h1{
@@ -814,17 +823,18 @@ hr{
         padding-bottom: 0px;
     }
     .session4 .realsteps{
-        padding-top: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
         justify-content: center;
         gap: 0;
     }
     .session4 .steps{
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         border-radius: 5px;
         height: 227px;
+        width: 90%;
     }
     .session4 h4{
         height: 30px;
@@ -841,15 +851,23 @@ hr{
     .session5{
         display: flex;
         flex-direction: column;
-        width: 90%;
+        width: 100%;
         margin: auto;
-        padding-top: 0px;
+        padding-top: 10px;
         padding-bottom: 20px;
         align-items: center;
         justify-content: center;
     }
+    .session5a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 0px;
+    }
     .session5a h2{
-        /* width: 252.74px; */
+        width: 100%;
         padding-bottom: 0px;
         display: flex;
         align-items: center;
@@ -861,22 +879,27 @@ hr{
         font-weight: 600;    
     }
     .session5a p{
-        height: 38px;
+        width: 95%;
+        display: flex;
+        justify-content: center;
         font-size: small;
         top: 210px;
-        line-height: 30px;
+        line-height: 36px;
         text-align: center;
         padding-bottom: 0px;
     }
     .session5b{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0px;
     }
     .session5b .secure{
         border: 1px solid transparent;
         border-radius: 5px;
         background: #FCB04B40;
-        width: 95%;
+        width: 92%;
         height: 227px;
         margin-bottom: 10px;
         margin-top: 10px;
@@ -886,7 +909,7 @@ hr{
         border: 1px solid transparent;
         background: #FCAE4940;
         border-radius: 5px;
-        width: 100%;
+        width: 95%;
         height: 227px;
         margin-top: 10px;
         margin-bottom: 10px;
@@ -896,7 +919,7 @@ hr{
         border: 1px solid transparent;
         border-radius: 5px;
         background: #0075FF40;
-        width: 100%;
+        width: 95%;
         height: 227px;
         padding-top: 10px;
         margin-top: 50px;
@@ -905,7 +928,7 @@ hr{
     .session5b h2{
         line-height: 30.6px;
         width: 90%;
-        font-size: medium;
+        font-size: small;
         font-weight: 600;
         margin: auto;
         padding-top: 20px;
@@ -936,13 +959,14 @@ hr{
         padding-top: 10px;
         padding-bottom: 3px;
         font-weight: 600;
-        font-size: medium;
+        font-size: small;
         line-height: 35.28px;
     }
     .session6 .explore{
         padding-top: 1px;
         padding-bottom: 1px;
         display: flex;
+        width: 100%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -952,8 +976,8 @@ hr{
         box-shadow: 2px 18px 22px rgb(216, 214, 214);
         border-radius: 5px;
        margin-bottom: 40px;
-       width: 100%;
-       max-width: 100%; 
+       width: 85%;
+       max-width: 90%;
        text-align: center;
         height: 131px;
     }
@@ -979,14 +1003,15 @@ hr{
     }
     .session7 h1{
         padding-bottom: 20px;
-        font-weight: 600;
-        font-size: medium;
+        font-weight: 700;
+        font-size: large;
         line-height: 20.28px;
     }
     .session7 .recommend{
         padding-top: 20px;
         padding-bottom: 20px;
         display: flex;
+        width: 100%;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -1010,7 +1035,7 @@ hr{
     }
     .recommend h4{
         font-weight: 700;
-        font-size: medium;
+        font-size: small;
         line-height: 21.35px;
     }
     .commend h4{
@@ -1049,7 +1074,7 @@ hr{
     .session9 h2{
         height: 65px;
         font-weight: 600;
-        font-size: medium;
+        font-size: small;
         text-align: center;
         line-height: 35.28px;
         padding-top: 20px;
@@ -1139,136 +1164,8 @@ hr{
   @media (min-width: 641px) and (max-width: 768px) {
     .session8{
         display: flex;
-        flex-direction: column;
-        height: fit-content;
-    }
-    .session8 .downloadApp h2{
-        width: 212px;
-        height: 70px; 
-        padding-top: 70px;
-        padding-bottom: 70px;
-        font-weight: 600;
-        font-size: 38px;
-        line-height: 64px;
-    }
-    .session8 .downloadApp p{
-        width: 340px;
-        height: 72px;
-        top: 210px;
-        font-weight: 400;
-        padding-top: 40px;
-        padding-bottom: 30px;
-        font-size: 14px;
-        line-height: 24px;
-    }
-    .store{
-        gap: 10px;
-    }
-    .players{
-        width: 52%;
-        padding-top: 7.6px;
-        padding-bottom: 7.6px;
-    }
-    .session8 .iphone3{
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 100px;
-    }
-    .iphone3 .phone1{
-        padding-bottom: 90px;
-    }
-    .features{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        box-sizing: border-box; 
-        max-width: 640px;
-       
-    }
-    .session1{
-        display: flex;
-        flex-direction: column;
-        padding-right: 0px;
-    } 
-    .iphone{
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-    }
-    .ph img{
-       height: 214px;
-        
-    }
-    .phh img{
-       height: 214px;
-    }
-    .phh{
-        left: 80px;
-    } 
-    .perfect{
-        padding-top: 0%;
-    }
-    .perfect h4{
-        width: 325px;
-        font-size: 32px;
-        font-weight: 700;
-        line-height: 27.16px;
-        padding-bottom: 0px;
-        line-height: 43.52px;
-    }
-    .perfect p{
-        width: 329px;
-        font-size: 16px;
-        text-align: justify;
-        line-height: 24px;
-        font-weight: 400;
-        height: 62px;
-        padding-top: 10px;
-        padding-bottom: 40px;
-    }
-    .btnGet{
-        padding-top: 10px;
-        padding-bottom: 10px;
-        align-items: center;
-        display: flex;
-        justify-content: center;
-    }
-    .btnGet button{
-        width: 65%;
-        height: 62px;
-        font-size: 18px;
-        font-weight: 500;
-    }
-    .change{
-        flex-direction: column;
-        align-items: center;
-        display: flex;
-        justify-content: center;
-    }
-    .change button{
-        width: 65%;
-        height: 71px;
-    }
-
-    .brand{
-        display: grid;
-        grid-template-columns: 2, 2fr;
-        justify-content: space-evenly;
-        color: white;
-        font-size: small;
-    }
-    .session2{
-        padding-bottom: 32px;
-        font-size: small;
-    }
-
-    /* .session8{
-        display: flex;
         flex-direction: column-reverse;
-        height: max-content;
+        height: 1100px;
         
     }
     .session8 .downloadApp h2{
@@ -1308,87 +1205,221 @@ hr{
         width: 46%;
         height: 78px;
     }
+    .storey{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 20px;
+    }
+    .playersRight{
+        width: 100%;
+    }
+    .store{
+        gap: 10px;
+    }
+    .players{
+        width: 55%;
+        padding-top: 7.7px;
+        padding-bottom: 7.7px;
+    }
     
     .session8 .iphone3{
         display: flex;
         flex-direction: column;
        justify-content: center;
        align-items: center;
-    } */
-    /* .iphone3 .phone1{
+       margin-top: -150px;
+      
+    }
+    .iphone3 .phone1{
+        /* width: 202.33px; */
         height: 93%; 
         display: flex;
 
     }
     .iphone3 .phone2{
         display: none;
-    }  */
+    } 
+    .features{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box; 
+       
+    }
+    .session1{
+        display: flex;
+        flex-direction: column;
+        padding-right: 0px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    } 
+    .iphone{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .ph img{
+       height: 80%;
+       width: 80%;
+    }
+    .phh img{
+       height: 80%;
+       width: 80%;
+    }
+    .phh{
+        left: 80px;
+    } 
+    .perfect{
+        padding-top: 0%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .perfect h4{
+        width: 100%;
+        font-size: 32px;
+        font-weight: 700;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        line-height: 27.16px;
+        padding-bottom: 0px;
+        line-height: 3.52px;
+    }
+    .perfect p{
+        width: 95%;
+        display: flex;
+        font-size: 16px;
+        align-items: center;
+        justify-content: center;
+        text-align: center; 
+        line-height: 24px;
+        font-weight: 400;
+        height: 62px;
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+    .btnGet{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .btnGet button{
+        width: 60%;
+        height: 62px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .playersRight{
+        width: 50%;
+    }
+    .storey{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .change{
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .change button{
+        width: 65%;
+        height: 71px;
+    }
+
+    .brand{
+        display: grid;
+        grid-template-columns: 2, 2fr;
+        justify-content: space-evenly;
+        color: white;
+        font-size: medium;
+    }
     .session3{
         flex-direction: column-reverse;
         gap: 60px;
         padding-top: 0px;
+        width: 100%;
     }
     .session3 img{
-        width: 70%;
-        /* margin: auto; */
+        width: 90%;
         margin: auto;
         display: flex;
-        /* align-items: center; */
         justify-content: center;
     }
     .aboutTell h1{
-        font-size: medium;
-        font-weight: 600;
+        font-size: larger;
+        font-weight: 700;
         align-items: center;
         justify-content: center;
         display: flex;
-        height: 65px;
-        line-height: 55.28px;
+        height: 5px;
+        line-height: 5.28px;
         width: 100%;
        
     }
     .aboutTell p{
         font-weight: 400px;
-        width: 85%;
+        width: 90%;
         align-items: center;
         justify-content: center;
-        /* display: flex; */
+         display: flex;
         margin: auto;
         font-size: small;
         line-height: 27px;
-        max-width: 360px;
-        padding-bottom: 146px;
+        padding-bottom: 16px;
         text-align: justify;
         
     }
     .aboutTell{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
     }
     .aboutTell button{
         margin-top: 0px;
-        font-size: small;
-        padding-top: 10px;
-        width: 30%;
+        font-size: medium;
+        width: 300%;
         margin: auto;
         display: flex;
+        align-items: center;
         justify-content: center;
-        height: 40px;
+        height: 50px;
         border-radius: 5px;
     }
     .aboutTell .btnLearn{
         padding-top: 0px;
-        font-size: small;
+        font-size: medium;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
     }
     .session4 {
         padding-top: 30px;
-        width: 75%;
+        width: 100%;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         
     }
     .session4 h1{
-        /* width: 349px; */
         font-size: 20px;
         text-align: center;
         font-weight: 600;
@@ -1398,6 +1429,7 @@ hr{
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
         justify-content: center;
         gap: 0;
     }
@@ -1405,6 +1437,7 @@ hr{
         margin-bottom: 30px;
         border-radius: 5px;
         height: 227px;
+        width: 90%;
     }
     .session4 h4{
         height: 30px;
@@ -1421,43 +1454,55 @@ hr{
     .session5{
         display: flex;
         flex-direction: column;
-        width: 90%;
+        width: 100%;
         margin: auto;
         padding-top: 10px;
         padding-bottom: 20px;
         align-items: center;
         justify-content: center;
     }
+    .session5a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 0px;
+    }
     .session5a h2{
-        /* width: 252.74px; */
+        width: 100%;
         padding-bottom: 0px;
         display: flex;
         align-items: center;
         justify-content: center;
         height: 60px;
         line-height: 45.28px;
-        font-size: medium;
+        font-size: large;
         top: 40px;
         font-weight: 600;    
     }
     .session5a p{
-        height: 38px;
-        font-size: small;
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        font-size: medium;
         top: 210px;
-        line-height: 30px;
+        line-height: 36px;
         text-align: center;
-        padding-bottom: 70px;
+        padding-bottom: 0px;
     }
     .session5b{
         display: flex;
         flex-direction: column;
-        /* grid-template-columns: repeat(1, 1fr); */
+        align-items: center;
+        justify-content: center;
+        padding-top: 0px;
     }
     .session5b .secure{
         border: 1px solid transparent;
         border-radius: 5px;
         background: #FCB04B40;
-        width: 95%;
+        width: 92%;
         height: 227px;
         margin-bottom: 10px;
         margin-top: 10px;
@@ -1467,7 +1512,7 @@ hr{
         border: 1px solid transparent;
         background: #FCAE4940;
         border-radius: 5px;
-        width: 100%;
+        width: 95%;
         height: 227px;
         margin-top: 10px;
         margin-bottom: 10px;
@@ -1477,7 +1522,7 @@ hr{
         border: 1px solid transparent;
         border-radius: 5px;
         background: #0075FF40;
-        width: 100%;
+        width: 95%;
         height: 227px;
         padding-top: 10px;
         margin-top: 50px;
@@ -1521,11 +1566,10 @@ hr{
         line-height: 35.28px;
     }
     .session6 .explore{
-        /* display: grid;
-        grid-template-columns: repeat(1, 1fr); */
         padding-top: 1px;
         padding-bottom: 1px;
         display: flex;
+        width: 100%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -1535,8 +1579,8 @@ hr{
         box-shadow: 2px 18px 22px rgb(216, 214, 214);
         border-radius: 5px;
        margin-bottom: 40px;
-       width: 100%;
-       max-width: 100%;
+       width: 85%;
+       max-width: 90%;
        text-align: center;
         height: 131px;
     }
@@ -1567,8 +1611,6 @@ hr{
         line-height: 20.28px;
     }
     .session7 .recommend{
-        /* display: grid;
-        grid-template-columns: repeat(1, 1fr); */
         padding-top: 20px;
         padding-bottom: 20px;
         display: flex;
@@ -1579,7 +1621,7 @@ hr{
 
     .session7 .commend{
         border: 2px solid #949EB0;
-        width: 90%;
+        width: 100%;
         /* width: 388px; */
         height: 239px;
         top: 129px;
@@ -1715,9 +1757,6 @@ hr{
         gap: 0px;
         color: #949EB0;
         
-    }
-    .playersRight{
-        width: 100%;
     }
     .change{
         flex-direction: column;
@@ -1725,151 +1764,16 @@ hr{
   
 }
   @media (min-width: 769px) and (max-width: 1024px) {
+
+
+
+
+
+
     .session8{
         display: flex;
-        flex-direction: column;
-        height: 1150px;
-    }
-    .session8 .downloadApp h2{
-        width: 412px;
-        height: 70px;
-        padding-top: 70px;
-        padding-bottom: 70px;
-        font-weight: 600;
-        font-size: 38px;
-        line-height: 64px;
-    }
-    .session8 .downloadApp p{
-        width: 440px;
-        height: 72px;
-      
-        font-weight: 400;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        font-size: 14px;
-        line-height: 24px;
-    }
-    .store{
-        gap: 10px;
-    }
-    .players{
-        width: 47%;
-        padding-top: 7.7px;
-        padding-bottom: 7.7px;
-    }
-    
-    .session8 .iphone3{
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 100px;
-    }
-    .iphone3 .phone1{
-        padding-bottom: 90px;
-    }
-    .features{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        box-sizing: border-box; 
-        max-width: 640px;
-       
-    }
-    .session1{
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        padding-right: 0px;
-    } 
-    .iphone{
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-    }
-    .ph img{
-       height: 214px;
-        
-    }
-    .phh img{
-       height: 214px;
-    }
-    .phh{
-        left: 80px;
-    } 
-    .perfect{
-        padding-top: 0%;
-    }
-    .perfect h4{
-        width: 325px;
-        font-size: 32px;
-        font-weight: 700;
-        line-height: 27.16px;
-        padding-bottom: 0px;
-        line-height: 43.52px;
-    }
-    .perfect p{
-        width: 329px;
-        font-size: 16px;
-        text-align: justify;
-        line-height: 24px;
-        font-weight: 400;
-        height: 62px;
-        padding-top: 10px;
-        padding-bottom: 40px;
-    }
-    .btnGet{
-        padding-top: 10px;
-        padding-bottom: 10px;
-        align-items: center;
-        display: flex;
-        justify-content: center;
-    }
-    .btnGet button{
-        width: 65%;
-        height: 62px;
-        font-size: 18px;
-        font-weight: 500;
-    }
-    .change{
-        flex-direction: column;
-        align-items: center;
-        display: flex;
-        justify-content: center;
-    }
-    .change button{
-        width: 65%;
-        height: 71px;
-    }
-
-    hr{
-        background: #949EB0;
-        border: 1px solid #949EB0;
-        width: 100%;
-    
-    }
-    .brand{
-        display: grid;
-        grid-template-columns: 2, 2fr;
-        justify-content: space-evenly;
-        color: white;
-        font-size: small;
-    }
-    .session2{
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 32px;
-        font-size: small;
-    }
-
-    /* .session8{
-        display: flex;
         flex-direction: column-reverse;
-        height: max-content;
+        height: 1100px;
         
     }
     .session8 .downloadApp h2{
@@ -1909,45 +1813,169 @@ hr{
         width: 46%;
         height: 78px;
     }
+    .storey{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 20px;
+    }
+    .playersRight{
+        width: 100%;
+    }
+    .store{
+        gap: 10px;
+    }
+    .players{
+        width: 55%;
+        padding-top: 7.7px;
+        padding-bottom: 7.7px;
+    }
     
     .session8 .iphone3{
         display: flex;
         flex-direction: column;
        justify-content: center;
        align-items: center;
+       margin-top: -150px;
+      
     }
     .iphone3 .phone1{
         /* width: 202.33px; */
-        /* height: 93%;  */
-        /* display: flex; */
+        height: 93%; 
+        display: flex;
 
-    /* }
+    }
     .iphone3 .phone2{
         display: none;
-    }  */
-    .session3{
-        flex-direction: column-reverse;
+    } 
+    .features{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
+        box-sizing: border-box; 
+       
+    }
+    .session1{
+        display: flex;
+        flex-direction: column;
+        padding-right: 0px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    } 
+    .iphone{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .ph img{
+       height: 80%;
+       width: 80%;
+    }
+    .phh img{
+       height: 80%;
+       width: 80%;
+    }
+    .phh{
+        left: 80px;
+    } 
+    .perfect{
+        padding-top: 0%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .perfect h4{
+        width: 100%;
+        font-size: 32px;
+        font-weight: 700;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        line-height: 27.16px;
+        padding-bottom: 0px;
+        line-height: 3.52px;
+    }
+    .perfect p{
+        width: 95%;
+        display: flex;
+        font-size: 16px;
+        align-items: center;
+        justify-content: center;
+        text-align: center; 
+        line-height: 24px;
+        font-weight: 400;
+        height: 62px;
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+    .btnGet{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .btnGet button{
+        width: 60%;
+        height: 62px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .playersRight{
+        width: 50%;
+    }
+    .storey{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .change{
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .change button{
+        width: 65%;
+        height: 71px;
+    }
+
+    .brand{
+        display: grid;
+        grid-template-columns: 2, 2fr;
+        justify-content: space-evenly;
+        color: white;
+        font-size: medium;
+    }
+    .session3{
+        flex-direction: column-reverse;
         gap: 60px;
         padding-top: 0px;
+        width: 100%;
     }
     .session3 img{
-        width: 70%;
-        /* margin: auto; */
+        width: 90%;
         margin: auto;
         display: flex;
-        /* align-items: center; */
         justify-content: center;
     }
     .aboutTell h1{
-        font-size: medium;
-        font-weight: 600;
+        font-size: larger;
+        font-weight: 700;
         align-items: center;
         justify-content: center;
         display: flex;
-        height: 65px;
-        line-height: 55.28px;
+        height: 5px;
+        line-height: 5.28px;
         width: 100%;
        
     }
@@ -1956,45 +1984,50 @@ hr{
         width: 90%;
         align-items: center;
         justify-content: center;
-        /* display: flex; */
+         display: flex;
         margin: auto;
         font-size: small;
         line-height: 27px;
-        max-width: 360px;
-        padding-bottom: 146px;
+        padding-bottom: 16px;
         text-align: justify;
         
     }
     .aboutTell{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
     }
     .aboutTell button{
         margin-top: 0px;
-        font-size: small;
-        padding-top: 10px;
-        width: 30%;
+        font-size: medium;
+        width: 300%;
         margin: auto;
         display: flex;
+        align-items: center;
         justify-content: center;
-        height: 40px;
+        height: 50px;
         border-radius: 5px;
     }
     .aboutTell .btnLearn{
         padding-top: 0px;
-        font-size: small;
+        font-size: medium;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
     }
     .session4 {
-        justify-content: center;
-        align-items: center;
         padding-top: 30px;
-        width: 75%;
+        width: 100%;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         
     }
     .session4 h1{
-        /* width: 349px; */
         font-size: 20px;
         text-align: center;
         font-weight: 600;
@@ -2004,6 +2037,7 @@ hr{
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
         justify-content: center;
         gap: 0;
     }
@@ -2011,6 +2045,7 @@ hr{
         margin-bottom: 30px;
         border-radius: 5px;
         height: 227px;
+        width: 90%;
     }
     .session4 h4{
         height: 30px;
@@ -2027,43 +2062,55 @@ hr{
     .session5{
         display: flex;
         flex-direction: column;
-        width: 90%;
+        width: 100%;
         margin: auto;
         padding-top: 10px;
         padding-bottom: 20px;
         align-items: center;
         justify-content: center;
     }
+    .session5a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 0px;
+    }
     .session5a h2{
-        /* width: 252.74px; */
+        width: 100%;
         padding-bottom: 0px;
         display: flex;
         align-items: center;
         justify-content: center;
         height: 60px;
         line-height: 45.28px;
-        font-size: medium;
+        font-size: large;
         top: 40px;
         font-weight: 600;    
     }
     .session5a p{
-        height: 38px;
-        font-size: small;
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        font-size: medium;
         top: 210px;
-        line-height: 30px;
+        line-height: 36px;
         text-align: center;
-        padding-bottom: 70px;
+        padding-bottom: 0px;
     }
     .session5b{
         display: flex;
         flex-direction: column;
-        /* grid-template-columns: repeat(1, 1fr); */
+        align-items: center;
+        justify-content: center;
+        padding-top: 0px;
     }
     .session5b .secure{
         border: 1px solid transparent;
         border-radius: 5px;
         background: #FCB04B40;
-        width: 95%;
+        width: 92%;
         height: 227px;
         margin-bottom: 10px;
         margin-top: 10px;
@@ -2073,7 +2120,7 @@ hr{
         border: 1px solid transparent;
         background: #FCAE4940;
         border-radius: 5px;
-        width: 100%;
+        width: 95%;
         height: 227px;
         margin-top: 10px;
         margin-bottom: 10px;
@@ -2083,7 +2130,7 @@ hr{
         border: 1px solid transparent;
         border-radius: 5px;
         background: #0075FF40;
-        width: 100%;
+        width: 95%;
         height: 227px;
         padding-top: 10px;
         margin-top: 50px;
@@ -2127,11 +2174,10 @@ hr{
         line-height: 35.28px;
     }
     .session6 .explore{
-        /* display: grid;
-        grid-template-columns: repeat(1, 1fr); */
         padding-top: 1px;
         padding-bottom: 1px;
         display: flex;
+        width: 100%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -2141,8 +2187,8 @@ hr{
         box-shadow: 2px 18px 22px rgb(216, 214, 214);
         border-radius: 5px;
        margin-bottom: 40px;
-       width: 100%;
-       /* max-width: 100%; */
+       width: 85%;
+       max-width: 90%;
        text-align: center;
         height: 131px;
     }
@@ -2173,8 +2219,6 @@ hr{
         line-height: 20.28px;
     }
     .session7 .recommend{
-        /* display: grid;
-        grid-template-columns: repeat(1, 1fr); */
         padding-top: 20px;
         padding-bottom: 20px;
         display: flex;
@@ -2185,7 +2229,7 @@ hr{
 
     .session7 .commend{
         border: 2px solid #949EB0;
-        width: 90%;
+        width: 100%;
         /* width: 388px; */
         height: 239px;
         top: 129px;
@@ -2322,17 +2366,8 @@ hr{
         color: #949EB0;
         
     }
-    hr{
-        background: #949EB0;
-        border: 1px solid #949EB0;
-        width: 100%;
-    }
-    .playersRight{
-        width: 100%;
-    }
     .change{
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
-  }
+  
+}
