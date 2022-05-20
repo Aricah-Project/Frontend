@@ -206,6 +206,7 @@
 .session5a p{
     width: 370px;
     height: 128px;
+    text-align: justify;
     top: 230px;
     font-weight: 400;
     font-size: 18px;

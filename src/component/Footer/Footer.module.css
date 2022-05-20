@@ -74,6 +74,9 @@
 }
 .store{
     padding-top: 20px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
 }
 .players{
     border: 2px solid white;
